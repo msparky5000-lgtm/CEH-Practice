@@ -22,14 +22,13 @@ const chapters = [
 ];
 
 const state = { questions: [], index: 0, score: 0, selected: null, checked: false };
-
 const $ = (id) => document.getElementById(id);
-const show = (id) => document.querySelectorAll('.panel').forEach(p => p.classList.toggle('active', p.id === id));
+const show = (id) => document.querySelectorAll('.panel').forEach((p) => p.classList.toggle('active', p.id === id));
 
 function normaliseQuestion(q) {
-  const answers = q.answers.map((answer) => {
+  const answers = q.answers.map((answer, index) => {
     const match = answer.match(/^([A-E])\)\s*(.*)$/);
-    return match ? { letter: match[1], text: match[2] } : { letter: String.fromCharCode(65 + q.answers.indexOf(answer)), text: answer };
+    return match ? { letter: match[1], text: match[2] } : { letter: String.fromCharCode(65 + index), text: answer };
   });
   return { ...q, answers };
 }
@@ -37,10 +36,11 @@ function normaliseQuestion(q) {
 async function loadAllQuestions() {
   const loaded = [];
   for (const chapter of chapters) {
+    // app.js is under /CEH-Practice/web/, so data is one directory above web.
     const url = `../data/questions/${encodeURIComponent(chapter)}.json`;
     try {
       const response = await fetch(url);
-      if (!response.ok) continue;
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
       const data = await response.json();
       loaded.push(...(data.questions || []).map(normaliseQuestion));
     } catch (error) {
@@ -52,7 +52,7 @@ async function loadAllQuestions() {
 
 function shuffle(array) {
   const copy = [...array];
-  for (let i = copy.length - 1; i > 0; i--) {
+  for (let i = copy.length - 1; i > 0; i -= 1) {
     const j = Math.floor(Math.random() * (i + 1));
     [copy[i], copy[j]] = [copy[j], copy[i]];
   }
@@ -85,8 +85,12 @@ function renderQuestion() {
 }
 
 function startQuiz(amount = null) {
-  if (!state.questions.length) return;
-  state.questions = amount ? shuffle(state.questions).slice(0, amount) : shuffle(state.questions);
+  if (!state.questions.length) {
+    $('feedback').textContent = 'Question data is still loading. Please try again in a moment.';
+    return;
+  }
+  const pool = shuffle(state.questions);
+  state.questions = amount ? pool.slice(0, Math.min(amount, pool.length)) : pool;
   state.index = 0;
   state.score = 0;
   show('quiz');
@@ -102,11 +106,12 @@ $('checkBtn').onclick = () => {
     $('feedback').textContent = 'Please select an answer first.';
     return;
   }
+
   state.checked = true;
   const q = state.questions[state.index];
   const buttons = [...document.querySelectorAll('.answer')];
   buttons.forEach((button) => {
-    const letter = button.textContent.charAt(0);
+    const letter = button.textContent.trim().charAt(0);
     if (letter === q.correct) button.classList.add('correct');
     if (letter === state.selected && letter !== q.correct) button.classList.add('wrong');
   });
@@ -124,7 +129,8 @@ $('checkBtn').onclick = () => {
 $('nextBtn').onclick = () => {
   if (!state.checked) return;
   if (state.index >= state.questions.length - 1) {
-    $('resultText').textContent = `You scored ${state.score} out of ${state.questions.length} (${Math.round((state.score / state.questions.length) * 100)}%).`;
+    const percentage = Math.round((state.score / state.questions.length) * 100);
+    $('resultText').textContent = `You scored ${state.score} out of ${state.questions.length} (${percentage}%).`;
     show('results');
     return;
   }
@@ -132,13 +138,20 @@ $('nextBtn').onclick = () => {
   renderQuestion();
 };
 
+window.addEventListener('error', (event) => console.error('Web app error:', event.error || event.message));
+
 loadAllQuestions().then((questions) => {
   state.questions = questions;
+  const status = document.querySelector('.note');
+  if (status) status.textContent = `${questions.length} questions loaded. Ready to practice.`;
   if (!questions.length) {
     $('startBtn').disabled = true;
     $('randomBtn').disabled = true;
-    $('feedback').textContent = 'No question data could be loaded.';
   }
 }).catch((error) => {
   console.error(error);
+  $('startBtn').disabled = true;
+  $('randomBtn').disabled = true;
+  const status = document.querySelector('.note');
+  if (status) status.textContent = 'Could not load the question bank.';
 });
