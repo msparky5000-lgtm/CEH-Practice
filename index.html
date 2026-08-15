@@ -18,6 +18,7 @@
 <button id="chaptersBtn" class="primary">📚 Browse Chapters</button>
 <button id="examBtn">📝 Practice Exam (125 Questions)</button>
 <button id="randomBtn">🎲 Random Quiz (20 Questions)</button>
+<button id="creditsBtn">🏆 Credits &amp; Attribution</button>
 <p id="homeStatus" class="note">Loading question bank...</p>
 </section>
 <section id="chapters" class="panel">
@@ -34,6 +35,18 @@
 </section>
 <section id="results" class="panel"><h2>🎉 Quiz Complete</h2><p id="resultChapter" class="muted"></p><div class="results-card"><div id="resultScore" class="big-number"></div><div id="resultPercent" class="percent"></div><div class="progress-track"><div id="resultProgress" class="progress-fill"></div></div><p id="correctStat"></p><p id="incorrectStat"></p><div id="rating" class="rating"></div></div><h3>Performance</h3><div id="analytics" class="analytics"></div><div class="result-actions"><button id="reviewBtn">🔍 Review Incorrect Answers</button><button id="retryBtn" class="primary">🔄 Retry</button><button id="resultHomeBtn">🏠 Home</button></div></section>
 <section id="review" class="panel"><h2>🔍 Review Incorrect Answers</h2><div id="reviewList" class="review-list"></div><button id="reviewBackBtn" class="primary">← Back to Results</button></section>
+<section id="credits" class="panel">
+<div class="panel-title-row"><h2>🏆 Credits &amp; Attribution</h2><button id="creditsHomeBtn" class="small">🏠 Home</button></div>
+<div class="credits-card">
+<h3>Question Bank</h3>
+<p>A special thank you to <strong>ryh04x</strong> for creating and sharing the CEH exam question material that forms the basis of this practice application.</p>
+<p>Original source:</p>
+<p><a href="https://github.com/ryh04x/CEH-Exam-Questions" target="_blank" rel="noopener noreferrer">ryh04x/CEH-Exam-Questions on GitHub</a></p>
+<h3>Disclaimer</h3>
+<p>This application is an independent educational resource and is <strong>not affiliated with, endorsed by, or sponsored by EC-Council</strong>.</p>
+<p>CEH® and Certified Ethical Hacker® are trademarks of EC-Council.</p>
+</div>
+</section>
 </main>
 <script src="web/app.js"></script>
 <script>if ('serviceWorker' in navigator) navigator.serviceWorker.register('service-worker.js');</script>
