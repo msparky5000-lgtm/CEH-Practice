@@ -1,0 +1,206 @@
+{
+    "chapter": "System Hacking - Chapter 7",
+    "question_count": 20,
+    "questions": [
+        {
+            "question": "1. Enumeration is useful to system hacking because it provides __________.",
+            "answers": [
+                "A) Passwords",
+                "B) IP ranges",
+                "C) Configuration",
+                "D) Usernames"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "2. What does the enumeration phase not discover?",
+            "answers": [
+                "A) Services",
+                "B) User accounts",
+                "C) Ports",
+                "D) Shares"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "3. How would you use Netcat to set up a server on a system?",
+            "answers": [
+                "A) nc \u2013l \u2013p 192.168.1.1",
+                "B) nc \u2013l \u2013p 1000",
+                "C) nc \u2013p \u2013u 1000",
+                "D) nc \u2013l \u2013p \u2013t 192.168.1.1"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "4. __________ is the process of exploiting services on a system.",
+            "answers": [
+                "A) System hacking",
+                "B) Privilege escalation",
+                "C) Enumeration",
+                "D) Backdoor"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "5. How is a brute-force attack performed?",
+            "answers": [
+                "A) By trying all possible combinations of characters",
+                "B) By trying dictionary words",
+                "C) By capturing hashes",
+                "D) By comparing hashes"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "6. A __________ is a type of offline attack.",
+            "answers": [
+                "A) Cracking attack",
+                "B) Rainbow attack",
+                "C) Birthday attack",
+                "D) Hashing attack"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "7. An attacker can use a(n) __________ to return to a system.",
+            "answers": [
+                "A) Backdoor",
+                "B) Cracker",
+                "C) Account",
+                "D) Service"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "8. A __________ is used to represent a password.",
+            "answers": [
+                "A) NULL session",
+                "B) Hash",
+                "C) Rainbow table",
+                "D) Rootkit"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "9. A __________ is a file used to store passwords.",
+            "answers": [
+                "A) Network",
+                "B) SAM",
+                "C) Database",
+                "D) NetBIOS"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "10. __________ is a hash used to store passwords in older Windows systems.",
+            "answers": [
+                "A) LM",
+                "B) SSL",
+                "C) SAM",
+                "D) LMv2"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "11. __________ is used to partially encrypt the SAM.",
+            "answers": [
+                "A) SYSKEY",
+                "B) SAM",
+                "C) NTLM",
+                "D) LM"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "12. Which system should be used instead of LM or NTLM?",
+            "answers": [
+                "A) NTLMv2",
+                "B) SSL",
+                "C) Kerberos",
+                "D) LM"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "13. NTLM provides what benefit versus LM?",
+            "answers": [
+                "A) Performance",
+                "B) Security",
+                "C) Mutual authentication",
+                "D) SSL"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "14. ADS requires what to be present?",
+            "answers": [
+                "A) SAM",
+                "B) Domain",
+                "C) NTFS",
+                "D) FAT"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "15. What utility may be used to stop auditing or logging of events?",
+            "answers": [
+                "A) ADS",
+                "B) LM",
+                "C) NTFS",
+                "D) Auditpol"
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "16. On newer Windows systems, what hashing mechanism is disabled?",
+            "answers": [
+                "A) Kerberos",
+                "B) LM",
+                "C) NTLM",
+                "D) NTLMv2"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "17. Which of the following is a utility used to reset passwords?",
+            "answers": [
+                "A) TRK",
+                "B) ERC",
+                "C) WinRT",
+                "D) IRD"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "18. A good defense against password guessing is __________.",
+            "answers": [
+                "A) Complex passwords",
+                "B) Password policy",
+                "C) Fingerprints",
+                "D) Use of NTLM"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "19. If a domain controller is not present, what can be used instead?",
+            "answers": [
+                "A) Kerberos",
+                "B) LM",
+                "C) NTLMv1",
+                "D) NTLMv2"
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "20. Alternate Data Streams are supported in which file systems?",
+            "answers": [
+                "A) FAT16",
+                "B) FAT32",
+                "C) NTFS",
+                "D) CDFS"
+            ],
+            "correct": "C"
+        }
+    ]
+}

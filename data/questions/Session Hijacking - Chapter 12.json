@@ -1,0 +1,206 @@
+{
+    "chapter": "Session Hijacking - Chapter 12",
+    "question_count": 20,
+    "questions": [
+        {
+            "question": "1. Which statement defines session hijacking most accurately?",
+            "answers": [
+                "A) Session hijacking involves stealing a user\u2019s login information and using that information to pose as the user later.",
+                "B) Session hijacking involves assuming the role of a user through the compromise of physical tokens such as common access cards.",
+                "C) Session hijacking is an attack that aims at stealing a legitimate session and posing as that user while communicating with the web resource or host machine.",
+                "D) Session hijacking involves only web applications and is specific to stealing session IDs from compromised cookies."
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "2. Jennifer has been working with sniffing and session-hijacking tools on her company network. Since she wants to stay white hat\u2014that is, ethical\u2014she has gotten permission to undertake these activities. What would Jennifer\u2019s activities be categorized as?",
+            "answers": [
+                "A) Passive",
+                "B) Monitoring",
+                "C) Active",
+                "D) Sniffing"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "3. Based on the diagram, what attack is occurring?",
+            "answers": [
+                "A) Session splicing",
+                "B) Denial-of-service",
+                "C) Source routing",
+                "D) MITM"
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "4. Jennifer is a junior system administrator for a small firm of 50 employees. For the last week a few users have been complaining of losing connectivity intermittently with no suspect behavior on their part such as large downloads or intensive processes. Jennifer runs Wireshark on Monday morning to investigate. She sees a large amount of ARP broadcasts being sent at a fairly constant rate. What is Jennifer most likely seeing?",
+            "answers": [
+                "A) ARP poisoning",
+                "B) ARP caching",
+                "C) ARP spoofing",
+                "D) DNS spoofing"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "5. Which of the following is not a source of session IDs?",
+            "answers": [
+                "A) URL",
+                "B) Cookie",
+                "C) Anonymous login",
+                "D) Hidden login"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "6. Which kind of values is injected into a connection to the host machine in an effort to increment the sequence number in a predictable fashion?",
+            "answers": [
+                "A) Counted",
+                "B) Bit",
+                "C) Null",
+                "D) IP"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "7. An ethical hacker sends a packet with a deliberate and specific path to its destination. What technique is the hacker using?",
+            "answers": [
+                "A) IP spoofing",
+                "B) Source routing",
+                "C) ARP poisoning",
+                "D) Host routing"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "8. Network-level hijacking focuses on the mechanics of a connection such as the manipulation of packet sequencing. What is the main focus of web app session hijacking?",
+            "answers": [
+                "A) Breaking user logins",
+                "B) Stealing session IDs",
+                "C) Traffic redirection",
+                "D) Resource DoS"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "9. A public use workstation contains the browsing history of multiple users who logged in during the last seven days. While digging through the history, a user runs across the following web address: www.snaze.com/&w25;/session=22525. What kind of embedding are you seeing?",
+            "answers": [
+                "A) URL embedding",
+                "B) Session embedding",
+                "C) Hidden form embedding",
+                "D) Tracking cookie"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "10. Julie has sniffed an ample amount of traffic between the targeted victim and an authenticated resource. She has been able to correctly guess the packet sequence numbers and inject packets, but she is unable to receive any of the responses. What does this scenario define?",
+            "answers": [
+                "A) Switched network",
+                "B) SSL encryption",
+                "C) TCP hijacking",
+                "D) Blind hijacking"
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "11. Session hijacking can be performed on all of the following protocols except which one?",
+            "answers": [
+                "A) FTP",
+                "B) SMTP",
+                "C) HTTP",
+                "D) IPSec"
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "12. Which technology can provide protection against session hijacking?",
+            "answers": [
+                "A) IPSec",
+                "B) UDP",
+                "C) TCP",
+                "D) IDS"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "13. Session fixation is a vulnerability in which of the following?",
+            "answers": [
+                "A) Web applications",
+                "B) Networks",
+                "C) Software applications",
+                "D) Protocols"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "14. Session hijacking can be thwarted with which of the following?",
+            "answers": [
+                "A) SSH",
+                "B) FTP",
+                "C) Authentication",
+                "D) Sniffing"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "15. XSS is typically targeted toward which of the following?",
+            "answers": [
+                "A) Web applications",
+                "B) Email clients",
+                "C) Web browsers",
+                "D) Users"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "16. A man-in-the-browser attack is typically enabled by using which mechanism?",
+            "answers": [
+                "A) Virus",
+                "B) Worms",
+                "C) Logic bombs",
+                "D) Trojans"
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "17. A man-in-the-middle attack is an attack where the attacking party does which of the following?",
+            "answers": [
+                "A) Infect the client system",
+                "B) Infect the server system",
+                "C) Insert themselves into an active session",
+                "D) Insert themselves into a web application"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "18. A session hijack can happen with which of the following?",
+            "answers": [
+                "A) Networks and applications",
+                "B) Networks and physical devices",
+                "C) Browsers and applications",
+                "D) Cookies and devices"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "19. A session hijack can be initiated from all of the following except which one?",
+            "answers": [
+                "A) Emails",
+                "B) Browsers",
+                "C) Web applications",
+                "D) Cookies and devices"
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "20. Session hijacking can do all of the following except which one?",
+            "answers": [
+                "A) Take over an authenticated session",
+                "B) Be used to steal cookies",
+                "C) Take over a session",
+                "D) Place a cookie on a server"
+            ],
+            "correct": "D"
+        }
+    ]
+}

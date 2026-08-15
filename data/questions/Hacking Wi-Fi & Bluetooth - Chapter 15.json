@@ -1,0 +1,206 @@
+{
+    "chapter": "Hacking Wi-Fi & Bluetooth - Chapter 15",
+    "question_count": 20,
+    "questions": [
+        {
+            "question": "1. WEP is designed to offer security comparable to which of the following?",
+            "answers": [
+                "A) Bluetooth",
+                "B) Wired networks",
+                "C) IrDA",
+                "D) IPv6"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "2. Which of the following operates at 5 GHz?",
+            "answers": [
+                "A) 802.11a",
+                "B) 802.11b",
+                "C) 802.11g",
+                "D) 802.11i"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "3. Which of the following specifies security standards for wireless?",
+            "answers": [
+                "A) 802.11a",
+                "B) 802.11b",
+                "C) 802.11g",
+                "D) 802.11i"
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "4. Which of the following options shows the protocols in order from strongest to weakest?",
+            "answers": [
+                "A) WPA, WEP, WPA2, Open",
+                "B) WEP, WPA2, WPA, Open",
+                "C) Open, WPA, WPA2, WEP",
+                "D) WPA2, WPA, WEP, Open"
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "5. Which of the following is designed to locate wireless access points?",
+            "answers": [
+                "A) Site survey",
+                "B) Traffic analysis",
+                "C) Pattern recognition",
+                "D) Cracking"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "6. What is a client-to-client wireless connection called?",
+            "answers": [
+                "A) Infrastructure",
+                "B) Client-server",
+                "C) Peer-to-peer",
+                "D) Ad hoc"
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "7. When a wireless client is attached to an access point, it is known as which of the following?",
+            "answers": [
+                "A) Infrastructure",
+                "B) Client-server",
+                "C) Peer-to-peer",
+                "D) Ad hoc"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "8. Bluesnarfing is used to perform what type of attack?",
+            "answers": [
+                "A) Send spam text messages.",
+                "B) Read information from a device.",
+                "C) Deposit malware on a system.",
+                "D) Distribute files onto a system."
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "9. Monitor mode is used by wireless cards to do what?",
+            "answers": [
+                "A) Capture traffic from an associated wireless access point.",
+                "B) Capture information from ad hoc networks.",
+                "C) Capture information about wireless networks.",
+                "D) Capture traffic from access points."
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "10. A honeyspot is designed to do what?",
+            "answers": [
+                "A) Look for patterns of known attacks.",
+                "B) Look for deviations from known traffic patterns.",
+                "C) Attract victims to connect to it.",
+                "D) Analyze attacks patterns."
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "11. An SSID is used to do which of the following?",
+            "answers": [
+                "A) Identify a network.",
+                "B) Identify clients.",
+                "C) Prioritize traffic.",
+                "D) Mask a network."
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "12. AirPcap is used to do which of the following?",
+            "answers": [
+                "A) Assist in the sniffing of wireless traffic.",
+                "B) Allow network traffic to be analyzed.",
+                "C) Allow the identification of wireless networks.",
+                "D) Attack a victim."
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "13. What is a rogue access point?",
+            "answers": [
+                "A) An access point not managed by a company",
+                "B) An unmanaged access point",
+                "C) A second access point",
+                "D) A honeypot device"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "14. Bluejacking is a means of which of the following?",
+            "answers": [
+                "A) Tracking a device",
+                "B) Breaking into a device",
+                "C) Sending unsolicited messages",
+                "D) Crashing a device"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "15. The wardriving process involves which of the following?",
+            "answers": [
+                "A) Locating wireless networks",
+                "B) Breaking into wireless networks",
+                "C) Sniffing traffic",
+                "D) Performing spectrum analysis"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "16. Warchalking is used to do which of the following?",
+            "answers": [
+                "A) Discover wireless networks.",
+                "B) Hack wireless networks.",
+                "C) Make others aware of a wireless network.",
+                "D) Analyze a wireless network."
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "17. A closed network is typically which of the following?",
+            "answers": [
+                "A) Public network",
+                "B) Private network",
+                "C) Hot spot",
+                "D) Kiosk location"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "18. Which feature makes WPA easy to defeat?",
+            "answers": [
+                "A) AES encryption",
+                "B) WPS support",
+                "C) TKIP support",
+                "D) RC4 support"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "19. What is a PSK?",
+            "answers": [
+                "A) The password for the network",
+                "B) The certificate for the network",
+                "C) A key entered into each client",
+                "D) A distributed password for each user"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "20. Which of the following is a device used to perform a DoS on a wireless network?",
+            "answers": [
+                "A) WPA jammer",
+                "B) WPA2 jammer",
+                "C) WEP jammer",
+                "D) Wi-Fi jammer"
+            ],
+            "correct": "D"
+        }
+    ]
+}

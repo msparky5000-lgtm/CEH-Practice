@@ -1,0 +1,148 @@
+var _____WB$wombat$assign$function_____=function(name){return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name))||self[name];};if(!self.__WB_pmw){self.__WB_pmw=function(obj){this.__WB_source=obj;return this;}}{
+let window = _____WB$wombat$assign$function_____("window");
+let self = _____WB$wombat$assign$function_____("self");
+let document = _____WB$wombat$assign$function_____("document");
+let location = _____WB$wombat$assign$function_____("location");
+let top = _____WB$wombat$assign$function_____("top");
+let parent = _____WB$wombat$assign$function_____("parent");
+let frames = _____WB$wombat$assign$function_____("frames");
+let opens = _____WB$wombat$assign$function_____("opens");
+/*
+ * Collapsible v1.0
+ * https://github.com/Iteneo/Collapsible
+ * MIT License
+ */
+
+(function($) {
+
+  // init
+  $.fn.collapsible = function() {
+
+    if(!this || this.lenght < 1) {
+      return this;
+    }
+
+    return createCollapsible(this);
+
+  };
+
+  // create the initial collapsible
+  function createCollapsible(obj)
+  {
+    var opts = $.fn.collapsible.defaults;
+
+    obj.each(function() {
+
+      $(this).find(classSelector(opts.classContainer)).each(function() {
+
+        $(this).find(classSelector(opts.classHead)).bind('click', function(e) {
+
+          var $this = $(this).parent(classSelector.classContainer);
+
+          e.preventDefault();
+          toggle($this, opts);
+
+        });
+
+        close($(this), opts);
+
+      });
+
+    });
+
+  }
+
+  function toggle($this, opts)
+  {
+    if(collapsed($this, opts)) {
+
+      open($this, opts);
+
+    } else {
+
+      close($this, opts);
+
+    }
+
+    return false;
+  }
+
+  function collapsed($this, opts)
+  {
+    return $this.hasClass(opts.classClose);
+  }
+
+  function close($this, opts)
+  {
+    $this
+      .addClass(opts.classClose)
+      .removeClass(opts.classOpen);
+
+    $this
+      .find(classSelector(opts.classContent))
+      .slideUp(opts.speed);
+  }
+
+  function open($this, opts)
+  {
+    closeAll($this, opts);
+
+    $this
+      .addClass(opts.classOpen)
+      .removeClass(opts.classClose);
+
+    $this
+      .find(classSelector(opts.classContent))
+      .slideDown(opts.speed);
+  }
+
+  // close all except $this
+  function closeAll($this, opts)
+  {
+    $this.parent().find(classSelector(opts.classContainer)).not($this).each(function() {
+
+      close($(this), opts);
+
+    });
+  }
+
+  function classSelector(classname)
+  {
+    return "." + classname;
+  }
+
+  // opts
+  $.fn.collapsible.defaults = {
+    classContainer: "collapse-container",
+    classHead     : "collapse-head",
+    classContent  : "collapse-content",
+    classOpen     : "collapse-open",
+    classClose    : "collapse-close",
+    speed         : 200
+  };
+
+})(jQuery);
+
+}
+
+/*
+     FILE ARCHIVED ON 03:34:51 Aug 25, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:17:49 Feb 03, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.806
+  exclusion.robots: 0.031
+  exclusion.robots.policy: 0.015
+  esindex: 0.015
+  cdx.remote: 44.156
+  LoadShardBlock: 822.103 (3)
+  PetaboxLoader3.datanode: 836.161 (5)
+  PetaboxLoader3.resolve: 64.643 (2)
+  load_resource: 112.596
+  loaddict: 47.651
+*/

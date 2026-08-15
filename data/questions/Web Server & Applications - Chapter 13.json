@@ -1,0 +1,206 @@
+{
+    "chapter": "Web Server & Applications - Chapter 13",
+    "question_count": 20,
+    "questions": [
+        {
+            "question": "1. Which of the following best describes a web application?",
+            "answers": [
+                "A) Code designed to be run on the client",
+                "B) Code designed to be run on the server",
+                "C) SQL code for databases",
+                "D) Targeting of web services"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "2. __________ is a client-side scripting language.",
+            "answers": [
+                "A) JavaScript",
+                "B) ASP",
+                "C) ASP.NET",
+                "D) PHP"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "3. Which of the following is an example of a server-side scripting language?",
+            "answers": [
+                "A) JavaScript",
+                "B) PHP",
+                "C) SQL",
+                "D) HTML"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "4. Which of the following is used to access content outside the root of a website?",
+            "answers": [
+                "A) Brute force",
+                "B) Port scanning",
+                "C) SQL injection",
+                "D) Directory traversal"
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "5. Which of the following can prevent bad input from being presented to an application through a form?",
+            "answers": [
+                "A) Request filtering",
+                "B) Input validation",
+                "C) Input scanning",
+                "D) Directory traversing"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "6. __________ can be used to identify a web server.",
+            "answers": [
+                "A) Session hijacking",
+                "B) Banner grab",
+                "C) Traversal",
+                "D) Header analysis"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "7. In the field of IT security, the concept of defense in depth is layering more than one control on another. Why would this be helpful in the defense of a system of session hijacking?",
+            "answers": [
+                "A) To provide better protection",
+                "B) To build dependency among layers",
+                "C) To increase logging ability",
+                "D) To satisfy auditors"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "8. Which of the following is used to set permissions on content in a website?",
+            "answers": [
+                "A) HIDS",
+                "B) ACE",
+                "C) ACL",
+                "D) ALS"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "9. What could be used to monitor application errors and violations on a web server or application?",
+            "answers": [
+                "A) HIDS",
+                "B) HIPS",
+                "C) NIDS",
+                "D) Logs"
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "10. Which of the following is an attribute used to secure a cookie?",
+            "answers": [
+                "A) Encrypt",
+                "B) Secure",
+                "C) HttpOnly",
+                "D) Domain"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "11. A POODLE attack targets what exactly?",
+            "answers": [
+                "A) SSL",
+                "B) TLS",
+                "C) VPN",
+                "D) AES"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "12. What is used to store session information?",
+            "answers": [
+                "A) Cookie",
+                "B) Snoop",
+                "C) Directory",
+                "D) File"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "13. Which attack can be used to take over a previous session?",
+            "answers": [
+                "A) Cookie snooping",
+                "B) Session hijacking",
+                "C) Cookie hijacking",
+                "D) Session sniffing"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "14. Which command would retrieve banner information from a website at port 80?",
+            "answers": [
+                "A) nc 192.168.10.27 80",
+                "B) nc 192.168.19.27 443",
+                "C) nc 192.168.10.27 \u2013p 80",
+                "D) nc 192.168.10.27 \u2013p \u2013l 80"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "15. How is a brute-force attack performed?",
+            "answers": [
+                "A) By trying all possible combinations of characters",
+                "B) By trying dictionary words",
+                "C) By capturing hashes",
+                "D) By comparing hashes"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "16. What is the command to retrieve header information from a web server using Telnet?",
+            "answers": [
+                "A) telnet < website name > 80",
+                "B) telnet < website name > 443",
+                "C) telnet < website name > \u2013port:80",
+                "D) telnet < website name > \u2013port:443"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "17. Groups and individuals who may hack a web server or web application based on principle or personal beliefs are known as __________.",
+            "answers": [
+                "A) White hats",
+                "B) Black hats",
+                "C) Script kiddies",
+                "D) Hacktivists"
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "18. The Wayback Machine would be useful in viewing what type of information relating to a web application?",
+            "answers": [
+                "A) Get Job postings",
+                "B) Websites",
+                "C) Archived versions of websites",
+                "D) Backup copies of websites"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "19. What may be helpful in protecting the content on a web server from being viewed by unauthorized personnel?",
+            "answers": [
+                "A) Encryption",
+                "B) Permissions",
+                "C) Redirection",
+                "D) Firewalls"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "20. A common attack against web servers and web applications is __________.",
+            "answers": [
+                "A) Banner grab",
+                "B) Input validation",
+                "C) Buffer validations",
+                "D) Buffer overflow"
+            ],
+            "correct": "D"
+        }
+    ]
+}

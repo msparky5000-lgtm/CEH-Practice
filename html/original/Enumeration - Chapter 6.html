@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<!-- saved from url=(0121)https://web.archive.org/web/20240806152240/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter6-enumeration.php -->
+<html class="desktop fa-events-icons-ready" style="--wm-toolbar-height: 67px;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script src="./Enumeration - Chapter 6_files/athena.js.download" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app210.us.archive.org';v.server_ms=706;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="./Enumeration - Chapter 6_files/bundle-playback.js.download" charset="utf-8"></script>
+<script type="text/javascript" src="./Enumeration - Chapter 6_files/wombat.js.download" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+<script type="text/javascript" src="./Enumeration - Chapter 6_files/ruffle.js.download"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("https://www.yeahhub.com/cehv9-practice-exam-questions/chapter6-enumeration.php","20240806152240","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1722957760");
+</script>
+<link rel="stylesheet" type="text/css" href="./Enumeration - Chapter 6_files/banner-styles.css">
+<link rel="stylesheet" type="text/css" href="./Enumeration - Chapter 6_files/iconochive.css">
+<!-- End Wayback Rewrite JS Include -->
+
+		<title>Enumeration - Chapter 6</title>
+		
+		<meta name="description" content="The CEHv9 – Practice Exam Questions is your one-stop resource for complete coverage of EXAM 312-50. It all covers 100% of all exam 312-50 objectives. ">
+		<meta name="keywords" content="cehv9, certified ethical hacekr, certified ethical hacker version 9, practice exam questions, practice exam questions answers, ceh question answers, ceh mcq questions, ceh mcq answers, 19 chapters, ceh exam, ceh pass exam, ceh exam dumps, cehv9 exam dumps, ceh cyber security, cyber security, information security, ethical hacking, ethical hacker, cyber security mcq, cyber security mcq with answers, multiple choice questions, practical exam questions, 312-50 exam, ceh 312-50 exam, objective type questions, ceh questions with answers, inrtoduction, system hacking, system fundamentals, evasion, digital forensics, mobile hacking, security, website security, sql injection, scanning, enumeration, malware, website malwares, social engineering, denial of service, application hacking, web servers and applications, hacking wifi, hacking bluetooth, cryptography, intro to ethical hacking, cloud technologies and security, physical security, sniffers, footprinting">
+		<meta name="author" content="Yeahhub.com">
+		<link href="./Enumeration - Chapter 6_files/css" rel="stylesheet" type="text/css">
+		<script src="./Enumeration - Chapter 6_files/0fba0e7254.js.download"></script><link href="./Enumeration - Chapter 6_files/0fba0e7254.css" media="all" rel="stylesheet">
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+		<script src="./Enumeration - Chapter 6_files/jquery.min.js.download"></script>
+		<style type="text/css">html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}body{-webkit-text-size-adjust:none}</style><style type="text/css">@-ms-viewport{width: device-width}</style><style type="text/css">*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}</style><style type="text/css">body{min-width:1200px}.container{margin-left:auto;margin-right:auto;width:1200px}.container.small{width:900px}.container.big{width:100%;max-width:1500px;min-width:1200px}</style><style type="text/css">.\31 2u{width:100%}.\31 1u{width:91.6666666667%}.\31 0u{width:83.3333333333%}.\39 u{width:75%}.\38 u{width:66.6666666667%}.\37 u{width:58.3333333333%}.\36 u{width:50%}.\35 u{width:41.6666666667%}.\34 u{width:33.3333333333%}.\33 u{width:25%}.\32 u{width:16.6666666667%}.\31 u{width:8.3333333333%}.\-11u{margin-left:91.6666666667%}.\-10u{margin-left:83.3333333333%}.\-9u{margin-left:75%}.\-8u{margin-left:66.6666666667%}.\-7u{margin-left:58.3333333333%}.\-6u{margin-left:50%}.\-5u{margin-left:41.6666666667%}.\-4u{margin-left:33.3333333333%}.\-3u{margin-left:25%}.\-2u{margin-left:16.6666666667%}.\-1u{margin-left:8.3333333333%}</style><style type="text/css">.row>*{float:left;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}.row:after{content:'';display:block;clear:both;height:0}.row:first-child>*{padding-top:0!important}</style><style type="text/css">.row.flush{margin-left:0}.row.flush>*{padding:0!important}.row>*{padding-left:50px}.row+.row>*{padding:50px 0 0 50px}.row{margin-left:-50px}.row.half>*{padding-left:25px}.row+.row.half>*{padding:25px 0 0 25px}.row.half{margin-left:-25px}.row.quarter>*{padding-left:12.5px}.row+.row.quarter>*{padding:12.5px 0 0 12.5px}.row.quarter{margin-left:-12.5px}.row.oneandhalf>*{padding-left:75px}.row+.row.oneandhalf>*{padding:75px 0 0 75px}.row.oneandhalf{margin-left:-75px}.row.double>*{padding-left:100px}.row+.row.double>*{padding:100px 0 0 100px}.row.double{margin-left:-100px}</style><style type="text/css">.not-desktop{display:none!important}.only-mobile,.only-1000px{display:none!important}</style><link rel="stylesheet" type="text/css" href="./Enumeration - Chapter 6_files/style.css"><link rel="stylesheet" type="text/css" href="./Enumeration - Chapter 6_files/style-desktop.css"><script src="./Enumeration - Chapter 6_files/skel.min.js.download"></script>
+		<script src="./Enumeration - Chapter 6_files/skel-panels.min.js.download"></script>
+		<script src="./Enumeration - Chapter 6_files/init.js.download"></script>
+    	<script src="./Enumeration - Chapter 6_files/collapsible.js.download"></script>
+		<link href="./Enumeration - Chapter 6_files/jquerysctipttop.css" rel="stylesheet" type="text/css">
+		<noscript>
+			<link rel="stylesheet" href="/web/20240806152240cs_/https://www.yeahhub.com/cehv9-practice-exam-questions/css/skel-noscript.css"/>
+			<link rel="stylesheet" href="/web/20240806152240cs_/https://www.yeahhub.com/cehv9-practice-exam-questions/css/style.css"/>
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+		<link rel="icon" href="https://web.archive.org/web/20240806152240im_/https://www.yeahhub.com/favicon.png" type="image/x-icon">
+		
+
+	</head>
+	<body style=""><div id="skel-panels-pageWrapper" style="position: relative; left: 0px; right: 0px; top: 0px; backface-visibility: hidden; transition: -webkit-transform 0.25s ease-in-out;"><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" lang="en" style="display: block; direction: ltr; height: 67px;" toolbar-mode="auto"><template shadowrootmode="closed"><div id="wm-ipp" style="position:fixed;left:0;top:0;right:0;">
+<div id="donato" style="position:relative;width:100%;height:0;">
+  <div id="donato-base">
+    <iframe id="donato-if" src="https://archive.org/includes/donate.php?as_page=1&amp;platform=wb&amp;referer=https%3A//web.archive.org/web/20240806152240/https%3A//www.yeahhub.com/cehv9-practice-exam-questions/chapter6-enumeration.php" scrolling="no" frameborder="0" style="width:100%; height:100%">
+    </iframe>
+  </div>
+</div><div id="wm-ipp-inside">
+  <div id="wm-toolbar" style="position:relative;display:flex;flex-flow:row nowrap;justify-content:space-between;" nav="async">
+    <div id="wm-logo" style="/*width:110px;*/padding-top:12px;">
+      <a href="https://web.archive.org/web/" title="Wayback Machine home page"><img src="https://web-static.archive.org/_static/images/toolbar/wayback-toolbar-logo-200.png" srcset="https://web-static.archive.org/_static/images/toolbar/wayback-toolbar-logo-100.png, https://web-static.archive.org/_static/images/toolbar/wayback-toolbar-logo-150.png 1.5x, https://web-static.archive.org/_static/images/toolbar/wayback-toolbar-logo-200.png 2x" alt="Wayback Machine" style="width:100px" border="0"></a>
+    </div>
+    <div class="c" style="display:flex;flex-flow:column nowrap;justify-content:space-between;flex:1;">
+      <form class="u" style="display:flex;flex-direction:row;flex-wrap:nowrap;" target="_top" method="get" action="https://web.archive.org/web/submit" name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" value="https://www.yeahhub.com/cehv9-practice-exam-questions/chapter6-enumeration.php" onfocus="this.focus();this.select();" style="flex:1;" autocomplete="off"><input type="hidden" name="type" value="replay"><input type="hidden" name="date" value="20240806152240"><input type="submit" value="Go">
+      </form>
+      <div style="display:flex;flex-flow:row nowrap;align-items:flex-end;">
+                <div class="s" id="wm-nav-captures" style="flex:1;"><a class="t" href="https://web.archive.org/web/*/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter6-enumeration.php" title="See a list of every capture for this URL">45 captures</a><div class="r" title="Timespan for captures of this URL">19 Sep 2017 - 4 Nov 2024</div></div>
+        <div class="k">
+          <a href="https://web.archive.org/web/20240806152240/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter6-enumeration.php" id="wm-graph-anchor">
+            <div id="wm-ipp-sparkline" title="Explore captures for this URL" style="position: relative">
+              <canvas id="wm-sparkline-canvas" width="775" height="27" border="0"></canvas>
+            <div class="yt" style="display: none; width: 25px; height: 27px;"></div><div class="mt" style="display: none; width: 2px; height: 27px;"></div></div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="n">
+      <table>
+        <tbody>
+          <!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+          <tr class="m">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20221006114328/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter6-enumeration.php" title="11:43:28 Oct 6, 2022">Oct</a></td>
+            <td class="c" id="displayMonthEl" title="You are here: 15:22:40 Aug 06, 2024">AUG</td>
+            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20241104122813/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter6-enumeration.php" title="12:28:13 Nov 4, 2024">Nov</a></td>
+          </tr>
+          <!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+          <tr class="d">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20221006114328/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter6-enumeration.php" title="11:43:28 Oct 6, 2022"><span class="ta"></span></a></td>
+            <td class="c" id="displayDayEl" style="width:34px;font-size:22px;white-space:nowrap;" title="You are here: 15:22:40 Aug 06, 2024">06</td>
+            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20241104122813/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter6-enumeration.php" title="12:28:13 Nov 4, 2024"><span class="ta"></span></a></td>
+          </tr>
+          <!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+          <tr class="y">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20221006114328/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter6-enumeration.php" title="11:43:28 Oct 6, 2022">2022</a></td>
+            <td class="c" id="displayYearEl" title="You are here: 15:22:40 Aug 06, 2024">2024</td>
+            <td class="f" nowrap="nowrap">2025</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="r" style="display:flex;flex-flow:column nowrap;align-items:flex-end;justify-content:space-between;">
+      <div id="wm-btns" style="text-align:right;height:23px;">
+                <span class="xxs">
+          <div id="wm-save-snapshot-success">success</div>
+          <div id="wm-save-snapshot-fail">fail</div>
+          <a id="wm-save-snapshot-open" href="https://web.archive.org/web/20240806152240/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter6-enumeration.php#" title="Share via My Web Archive" style="display: none;">
+            <span class="iconochive-web"></span>
+          </a>
+          <a href="https://archive.org/account/login.php" title="Sign In" id="wm-sign-in" style="display: inline-block;">
+            <span class="iconochive-person"></span>
+          </a>
+          <span id="wm-save-snapshot-in-progress" class="iconochive-web" style="display: none;"></span>
+        </span>
+                <a class="xxs" href="https://help.archive.org/help/category/the-wayback-machine/" title="Get some help using the Wayback Machine" style="top:-6px;"><span class="iconochive-question" style="color:rgb(87,186,244);font-size:160%;"></span></a>
+        <a id="wm-tb-close" href="https://web.archive.org/web/20240806152240/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter6-enumeration.php#close" style="top:-2px;" title="Close the toolbar"><span class="iconochive-remove-circle" style="color:#888888;font-size:240%;"></span></a>
+      </div>
+      <div id="wm-share" class="xxs">
+        <a href="https://web.archive.org/web/20240806152240/http://web.archive.org/screenshot/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter6-enumeration.php" id="wm-screenshot" title="screenshot" style="visibility: hidden;">
+          <span class="wm-icon-screen-shot"></span>
+        </a>
+        <a href="https://web.archive.org/web/20240806152240/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter6-enumeration.php#" id="wm-video" title="video">
+          <span class="iconochive-movies"></span>
+        </a>
+        <a id="wm-share-facebook" href="https://web.archive.org/web/20240806152240/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter6-enumeration.php#" data-url="https://web.archive.org/web/20240806152240/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter6-enumeration.php" title="Share on Facebook" style="margin-right:5px;" target="_blank"><span class="iconochive-facebook" style="color:#3b5998;font-size:160%;"></span></a>
+        <a id="wm-share-twitter" href="https://web.archive.org/web/20240806152240/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter6-enumeration.php#" data-url="https://web.archive.org/web/20240806152240/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter6-enumeration.php" title="Share on Twitter" style="margin-right:5px;" target="_blank"><span class="iconochive-twitter" style="color:#1dcaff;font-size:160%;"></span></a>
+      </div>
+      <div style="padding-right:2px;text-align:right;white-space:nowrap;">
+        <a id="wm-expand" class="wm-btn wm-closed" href="https://web.archive.org/web/20240806152240/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter6-enumeration.php#expand"><span id="wm-expand-icon" class="iconochive-down-solid"></span> <span class="xxs" style="font-size:80%;">About this capture</span></a>
+      </div>
+    </div>
+  </div>
+    <div id="wm-capinfo" style="border-top:1px solid #777;display:none; overflow: hidden">
+        <div id="wm-capinfo-notice" source="api"></div>
+                <div id="wm-capinfo-collected-by">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center;padding:2px 0;">COLLECTED BY</div>
+    <div style="padding:3px;position:relative" id="wm-collected-by-content">
+      <div style="display:inline-block;vertical-align:top;width:49%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/commoncrawl)"></span>
+		<div>Collection: <a style="color:#33f;" href="https://archive.org/details/commoncrawl" target="_new"><span class="wm-title">Common Crawl</span></a></div>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Web crawl data from Common Crawl.
+	</div>
+	      </div>
+    </div>
+    </div>
+    <div id="wm-capinfo-timestamps">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center;padding:2px 0;" title="Timestamps for the elements of this page">TIMESTAMPS</div>
+    <div>
+      <div id="wm-capresources" style="margin:0 5px 5px 5px;max-height:250px;overflow-y:scroll !important"></div>
+      <div id="wm-capresources-loading" style="text-align:left;margin:0 20px 5px 5px;display:none"><img src="https://web-static.archive.org/_static/images/loading.gif" alt="loading"></div>
+    </div>
+    </div>
+  </div></div></div><link rel="stylesheet" type="text/css" href="./Enumeration - Chapter 6_files/banner-styles.css"><link rel="stylesheet" type="text/css" href="./Enumeration - Chapter 6_files/iconochive.css"><div class="wb-autocomplete-suggestions "></div></template>
+</div><div id="wm-ipp-print">The Wayback Machine - https://web.archive.org/web/20240806152240/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter6-enumeration.php</div>
+<script type="text/javascript">//<![CDATA[
+__wm.bt(775,27,25,2,"web","https://www.yeahhub.com/cehv9-practice-exam-questions/chapter6-enumeration.php","20240806152240",1996,"https://web-static.archive.org/_static/",["https://web-static.archive.org/_static/css/banner-styles.css?v=1utQkbB3","https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv"], false);
+  __wm.rw(1);
+//]]></script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+ 
+		<div id="wrapper">
+			
+			<!-- Header -->
+			<div id="header">
+				<div class="container"> 
+					
+					<!-- Logo -->
+					<div id="logo">
+						<h1><a href="https://web.archive.org/web/20240806152240/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter6-enumeration.php">Enumeration</a></h1>
+						<span>CEHv9 - Practice Exam Questions with Answers</span>
+					</div>
+					
+					<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li class="active"><a href="https://web.archive.org/web/20240806152240/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter6-enumeration.php#page">Scroll More</a></li>
+							<li class="active"><a href="https://web.archive.org/web/20240806152240/https://www.yeahhub.com/cehv9-practice-exam-questions/index.php">Back to Main</a></li>
+
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<!-- /Header -->
+			
+			<div id="page">
+				<div class="container">
+					<div class="row">
+						<div class="3u">
+						<section id="sidebar1">
+<header>
+<h2>Contents</h2><hr>
+</header>
+<ul class="style1">
+    <li class="first"><span class="fa fa-long-arrow-right"></span><a href="https://web.archive.org/web/20240806152240/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter0-assessment.php">Assessment Test</a></li>
+    <li><span class="fa fa-long-arrow-right"></span><a href="https://web.archive.org/web/20240806152240/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter1-introduction.php">Introduction</a></li>
+    <li><span class="fa fa-long-arrow-right"></span><a href="https://web.archive.org/web/20240806152240/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter2-system-fundamentals.php">System Fundamentals</a></li>
+    <li><span class="fa fa-long-arrow-right"></span><a href="https://web.archive.org/web/20240806152240/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter3-cryptography.php">Cryptography</a></li>
+    <li><span class="fa fa-long-arrow-right"></span><a href="https://web.archive.org/web/20240806152240/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter4-footprinting.php">Footprinting</a></li>
+    <li><span class="fa fa-long-arrow-right"></span><a href="https://web.archive.org/web/20240806152240/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter5-scanning.php">Scanning</a></li>
+    <li><span class="fa fa-long-arrow-right"></span><a href="https://web.archive.org/web/20240806152240/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter6-enumeration.php">Enumeration</a></li>
+    <li><span class="fa fa-long-arrow-right"></span><a href="https://web.archive.org/web/20240806152240/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter7-system-hacking.php">System Hacking</a></li>
+    <li><span class="fa fa-long-arrow-right"></span><a href="https://web.archive.org/web/20240806152240/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter8-malware.php">Malware</a></li>
+    <li><span class="fa fa-long-arrow-right"></span><a href="https://web.archive.org/web/20240806152240/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter9-sniffers.php">Sniffers</a></li>
+    <li><span class="fa fa-long-arrow-right"></span><a href="https://web.archive.org/web/20240806152240/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter10-social-engineering.php">Social Engineering</a></li>
+    <li><span class="fa fa-long-arrow-right"></span><a href="https://web.archive.org/web/20240806152240/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter11-denial-of-service.php">Denial of Service</a></li>
+    <li><span class="fa fa-long-arrow-right"></span><a href="https://web.archive.org/web/20240806152240/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter12-session-hijacking.php">Session Hijacking</a></li>
+    <li><span class="fa fa-long-arrow-right"></span><a href="https://web.archive.org/web/20240806152240/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter13-web-server-applications.php">Web Servers &amp; Applications</a></li>
+    <li><span class="fa fa-long-arrow-right"></span><a href="https://web.archive.org/web/20240806152240/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter14-sql-injection.php">SQL Injection</a></li>
+    <li><span class="fa fa-long-arrow-right"></span><a href="https://web.archive.org/web/20240806152240/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter15-hacking-wifi-bluetooth.php">Hacking Wi-Fi &amp; Bluetooth</a></li>
+    <li><span class="fa fa-long-arrow-right"></span><a href="https://web.archive.org/web/20240806152240/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter16-mobile-device-security.php">Mobile Device Security</a></li>
+    <li><span class="fa fa-long-arrow-right"></span><a href="https://web.archive.org/web/20240806152240/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter17-evasion.php">Evasion</a></li>
+    <li><span class="fa fa-long-arrow-right"></span><a href="https://web.archive.org/web/20240806152240/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter18-cloud-technologies-security.php">Cloud Technologies &amp; Security</a></li>
+    <li><span class="fa fa-long-arrow-right"></span><a href="https://web.archive.org/web/20240806152240/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter19-physical-security.php">Physical Security</a></li>
+</ul>
+<a href="https://web.archive.org/web/20240806152240/http://www.yeahhub.com/complete-php-tutorial-series-chapter-1-chapter-8/"><img src="./Enumeration - Chapter 6_files/banner1.jpg" class="imgresponsive"></a>
+<br><br>
+<a href="https://web.archive.org/web/20240806152240/https://www.bluehost.com/track/yeahhub/" target="_blank"> <img border="0" class="imgresponsive" src="./Enumeration - Chapter 6_files/430x288PW.png"> </a>
+
+</section>
+						</div>
+						<div class="6u skel-cell-important">
+						<div class="header">Total No. of Questions = 20</div>
+						<hr>
+							<section id="content">
+								
+<div class="pad">
+<p>1. Enumeration is useful to system hacking because it provides which of the following?</p>
+<ul>
+<li>A) Passwords
+</li><li>B) IP ranges
+</li><li>C) Configurations
+</li><li>D) Usernames
+</li></ul>
+
+<div class="collapsible">
+<div class="collapse-container collapse-close"><div class="collapse-head"><h2>Show Answer</h2></div>
+<div class="collapse-content" style="display: none;"><strong>The Correct Answer is:-</strong> D</div></div>
+</div>
+
+<hr>
+<p>2. Enumeration does not uncover which of the following pieces of information?</p>
+<ul>
+<li>A) Services
+</li><li>B) User accounts
+</li><li>C) Ports
+</li><li>D) Shares
+</li></ul>
+
+<div class="collapsible">
+<div class="collapse-container collapse-close"><div class="collapse-head"><h2>Show Answer</h2></div>
+<div class="collapse-content" style="display: none;"><strong>The Correct Answer is:-</strong> C</div></div>
+</div>
+
+<hr>
+<p>3. __________ involves grabbing a copy of a zone file.</p>
+<ul>
+<li>A) Zone transfer
+</li><li>B) nslookup transfers
+</li><li>C) DNS transfer
+</li><li>D) Zone update
+</li></ul>
+
+<div class="collapsible">
+<div class="collapse-container collapse-close"><div class="collapse-head"><h2>Show Answer</h2></div>
+<div class="collapse-content" style="display: none;"><strong>The Correct Answer is:-</strong> A</div></div>
+</div>
+    
+						   
+<hr>
+<p>4. Which of the following would confirm a user named chell in SMTP?</p>
+<ul>
+<li>A) vrfy chell
+</li><li>B) vrfy –u chell
+</li><li>C) expn chell
+</li><li>D) expn –u chell
+</li></ul>
+
+<div class="collapsible">
+<div class="collapse-container collapse-close"><div class="collapse-head"><h2>Show Answer</h2></div>
+<div class="collapse-content" style="display: none;"><strong>The Correct Answer is:-</strong> A</div></div>
+</div>
+
+<hr>
+<p>5. VRFY is used to do which of the following?</p>
+<ul>
+<li>A) Validate an email address
+</li><li>B) Expand a mailing list
+</li><li>C) Validate an email server
+</li><li>D) Test a connection
+</li></ul>
+
+<div class="collapsible">
+<div class="collapse-container collapse-close"><div class="collapse-head"><h2>Show Answer</h2></div>
+<div class="collapse-content" style="display: none;"><strong>The Correct Answer is:-</strong> A</div></div>
+</div>
+
+<hr>
+<p>6. __________ is a method for expanding an email list.</p>
+<ul>
+<li>A) VRFY
+</li><li>B) EXPN
+</li><li>C) RCPT TO
+</li><li>D) SMTP
+</li></ul>
+
+<div class="collapsible">
+<div class="collapse-container collapse-close"><div class="collapse-head"><h2>Show Answer</h2></div>
+<div class="collapse-content" style="display: none;"><strong>The Correct Answer is:-</strong> B</div></div>
+</div>
+
+<hr>
+<p>7. An attacker can use __________ to enumerate users on a system.</p>
+<ul>
+<li>A) NetBIOS
+</li><li>B) TCP/IP
+</li><li>C) NetBEUI
+</li><li>D) NNTP
+</li></ul>
+
+<div class="collapsible">
+<div class="collapse-container collapse-close"><div class="collapse-head"><h2>Show Answer</h2></div>
+<div class="collapse-content" style="display: none;"><strong>The Correct Answer is:-</strong> A</div></div>
+</div>
+
+<hr>
+<p>8. A __________ is used to connect to a remote system using NetBIOS.</p>
+<ul>
+<li>A) NULL session
+</li><li>B) Hash
+</li><li>C) Rainbow table
+</li><li>D) Rootkit
+</li></ul>
+
+<div class="collapsible">
+<div class="collapse-container collapse-close"><div class="collapse-head"><h2>Show Answer</h2></div>
+<div class="collapse-content" style="display: none;"><strong>The Correct Answer is:-</strong> A</div></div>
+</div>
+
+<hr>
+<p>9. __________ is used to synchronize clocks on a network.</p>
+<ul>
+<li>A) SAM
+</li><li>B) NTP
+</li><li>C) NetBIOS
+</li><li>D) FTP
+</li></ul>
+
+<div class="collapsible">
+<div class="collapse-container collapse-close"><div class="collapse-head"><h2>Show Answer</h2></div>
+<div class="collapse-content" style="display: none;"><strong>The Correct Answer is:-</strong> B</div></div>
+</div>
+
+<hr>
+<p>10. Port number __________ is used for SMTP.</p>
+<ul>
+<li>A) 25
+</li><li>B) 110
+</li><li>C) 389
+</li><li>D) 52
+</li></ul>
+
+<div class="collapsible">
+<div class="collapse-container collapse-close"><div class="collapse-head"><h2>Show Answer</h2></div>
+<div class="collapse-content" style="display: none;"><strong>The Correct Answer is:-</strong> A</div></div>
+</div>
+
+<hr>
+<p>11. Port number __________ is used by DNS for zone transfers.</p>
+<ul>
+<li>A) 53 TCP
+</li><li>B) 53 UDP
+</li><li>C) 25 TCP
+</li><li>D) 25 UDP
+</li></ul>
+
+<div class="collapsible">
+<div class="collapse-container collapse-close"><div class="collapse-head"><h2>Show Answer</h2></div>
+<div class="collapse-content" style="display: none;"><strong>The Correct Answer is:-</strong> A</div></div>
+</div>
+
+<hr>
+<p>12. Which command can be used to view NetBIOS information?</p>
+<ul>
+<li>A) netstat
+</li><li>B) nmap
+</li><li>C) nbtstat
+</li><li>D) telnet
+</li></ul>
+
+<div class="collapsible">
+<div class="collapse-container collapse-close"><div class="collapse-head"><h2>Show Answer</h2></div>
+<div class="collapse-content" style="display: none;"><strong>The Correct Answer is:-</strong> C</div></div>
+</div>
+    
+						  
+<hr>
+<p>13. SNScan is used to access information for which protocol?</p>
+<ul>
+<li>A) SMTP
+</li><li>B) FTP
+</li><li>C) SNMP
+</li><li>D) HTTP
+</li></ul>
+
+<div class="collapsible">
+<div class="collapse-container collapse-close"><div class="collapse-head"><h2>Show Answer</h2></div>
+<div class="collapse-content" style="display: none;"><strong>The Correct Answer is:-</strong> C</div></div>
+</div>
+
+<hr>
+<p>14. SMTP is used to perform which function?</p>
+<ul>
+<li>A) Monitor network equipment
+</li><li>B) Transmit status information
+</li><li>C) Send email messages
+</li><li>D) Transfer files
+</li></ul>
+
+<div class="collapsible">
+<div class="collapse-container collapse-close"><div class="collapse-head"><h2>Show Answer</h2></div>
+<div class="collapse-content" style="display: none;"><strong>The Correct Answer is:-</strong> C</div></div>
+</div>
+
+<hr>
+<p>15. Which ports does SNMP use to function?</p>
+<ul>
+<li>A) 160 and 161
+</li><li>B) 160 and 162
+</li><li>C) 389 and 160
+</li><li>D) 161 and 162
+</li></ul>
+
+<div class="collapsible">
+<div class="collapse-container collapse-close"><div class="collapse-head"><h2>Show Answer</h2></div>
+<div class="collapse-content" style="display: none;"><strong>The Correct Answer is:-</strong> D</div></div>
+</div>
+
+<hr>
+<p>16. LDAP is used to perform which function?</p>
+<ul>
+<li>A) Query a network
+</li><li>B) Query a database
+</li><li>C) Query a directory
+</li><li>D) Query a file system
+</li></ul>
+
+<div class="collapsible">
+<div class="collapse-container collapse-close"><div class="collapse-head"><h2>Show Answer</h2></div>
+<div class="collapse-content" style="display: none;"><strong>The Correct Answer is:-</strong> B</div></div>
+</div>
+
+<hr>
+<p>17. SNMP is used to do which of the following?</p>
+<ul>
+<li>A) Transfer files
+</li><li>B) Synchronize clocks
+</li><li>C) Monitor network devices
+</li><li>D) Retrieve mail from a server
+</li></ul>
+
+<div class="collapsible">
+<div class="collapse-container collapse-close"><div class="collapse-head"><h2>Show Answer</h2></div>
+<div class="collapse-content" style="display: none;"><strong>The Correct Answer is:-</strong> C</div></div>
+</div>
+
+<hr>
+<p>18. SNMP is used to perform which function in relation to hardware?</p>
+<ul>
+<li>A) Trap messages
+</li><li>B) Monitor and manage traffic
+</li><li>C) Manage users and groups
+</li><li>D) Monitor security and violations
+</li></ul>
+
+<div class="collapsible">
+<div class="collapse-container collapse-close"><div class="collapse-head"><h2>Show Answer</h2></div>
+<div class="collapse-content" style="display: none;"><strong>The Correct Answer is:-</strong> A</div></div>
+</div>
+
+<hr>
+<p>19. What is an SID used to do?</p>
+<ul>
+<li>A) Identify permissions
+</li><li>B) Identify a domain controller
+</li><li>C) Identify a user
+</li><li>D) Identify a mail account
+</li></ul>
+
+<div class="collapsible">
+<div class="collapse-container collapse-close"><div class="collapse-head"><h2>Show Answer</h2></div>
+<div class="collapse-content" style="display: none;"><strong>The Correct Answer is:-</strong> C</div></div>
+</div>
+
+<hr>
+<p>20. A DNS zone transfer is used to do which of the following?</p>
+<ul>
+<li>A) Copy files
+</li><li>B) Perform searches
+</li><li>C) Synchronize server information
+</li><li>D) Decommission servers
+</li></ul>
+
+<div class="collapsible">
+<div class="collapse-container collapse-close"><div class="collapse-head"><h2>Show Answer</h2></div>
+<div class="collapse-content" style="display: none;"><strong>The Correct Answer is:-</strong> C</div></div>
+</div>
+
+</div>
+								
+								
+							</section>
+						</div>
+						<div class="3u">
+							<section id="sidebard2">
+				
+									
+							</section>
+						</div>
+					</div>
+
+				</div>	
+			</div>
+
+
+			
+
+<!-- Copyright -->
+        <div id="copyright">
+        <div class="container">
+        Copyright © 2017. All Rights Reserved | Developed by Yeah Hub Team <a href="https://web.archive.org/web/20240806152240/https://www.yeahhub.com/">Yeahhub</a>
+        </div>
+        </div>			
+        
+        </div>
+
+        <!-- Scrolling Javascript -->
+        <script>var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+let window = _____WB$wombat$assign$function_____("window");
+let globalThis = _____WB$wombat$assign$function_____("globalThis");
+let self = _____WB$wombat$assign$function_____("self");
+let document = _____WB$wombat$assign$function_____("document");
+let location = _____WB$wombat$assign$function_____("location");
+let top = _____WB$wombat$assign$function_____("top");
+let parent = _____WB$wombat$assign$function_____("parent");
+let frames = _____WB$wombat$assign$function_____("frames");
+let opener = _____WB$wombat$assign$function_____("opener");
+{
+$(function() {
+          $('a[href*="#"]:not([href="#"])').click(function() {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+              var target = $(this.hash);
+              target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+              if (target.length) {
+                $('html, body').animate({
+                  scrollTop: target.offset().top
+                }, 1000);
+                return false;
+              }
+            }
+          });
+        });
+
+}}</script>
+		<script>var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+let window = _____WB$wombat$assign$function_____("window");
+let globalThis = _____WB$wombat$assign$function_____("globalThis");
+let self = _____WB$wombat$assign$function_____("self");
+let document = _____WB$wombat$assign$function_____("document");
+let location = _____WB$wombat$assign$function_____("location");
+let top = _____WB$wombat$assign$function_____("top");
+let parent = _____WB$wombat$assign$function_____("parent");
+let frames = _____WB$wombat$assign$function_____("frames");
+let opener = _____WB$wombat$assign$function_____("opener");
+{
+$(document).ready(function() {
+            $('.collapsible').collapsible();
+        });
+
+}}</script>
+        <!-- Scrolling Javascript --><!-- Google tag (gtag.js) -->
+<script async="" src="./Enumeration - Chapter 6_files/js"></script>
+<script>var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+let window = _____WB$wombat$assign$function_____("window");
+let globalThis = _____WB$wombat$assign$function_____("globalThis");
+let self = _____WB$wombat$assign$function_____("self");
+let document = _____WB$wombat$assign$function_____("document");
+let location = _____WB$wombat$assign$function_____("location");
+let top = _____WB$wombat$assign$function_____("top");
+let parent = _____WB$wombat$assign$function_____("parent");
+let frames = _____WB$wombat$assign$function_____("frames");
+let opener = _____WB$wombat$assign$function_____("opener");
+{
+window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XK8S41LNQL');
+
+}}</script>
+
+
+</div><div id="skel-panels-defaultWrapper" style="height: 100%;"></div><div id="skel-panels-fixedWrapper" style="position: relative;"></div></body></html>

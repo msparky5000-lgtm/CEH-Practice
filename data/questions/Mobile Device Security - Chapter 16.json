@@ -1,0 +1,206 @@
+{
+    "chapter": "Mobile Device Security - Chapter 16",
+    "question_count": 20,
+    "questions": [
+        {
+            "question": "1. What is the benefit of encryption on mobile devices?",
+            "answers": [
+                "A) Protection against stolen devices",
+                "B) Protection of data on lost or stolen devices",
+                "C) Prevention of malware",
+                "D) Protection of data being sent to websites"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "2. Jailbreaking a phone refers to what?",
+            "answers": [
+                "A) Removing DRM from the system",
+                "B) Removing a device from a network",
+                "C) Acquiring root access on a device",
+                "D) Removing ransomware from a system"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "3. What does rooting a device do?",
+            "answers": [
+                "A) Removes updates from a system",
+                "B) Removes access to a user",
+                "C) Provides root-level access to a user on a system",
+                "D) Increases security on a device"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "4. Android is based on which operating system?",
+            "answers": [
+                "A) Windows",
+                "B) OS X",
+                "C) UNIX",
+                "D) Linux"
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "5. iOS is based on which operating system?",
+            "answers": [
+                "A) Windows",
+                "B) OS X",
+                "C) Unix",
+                "D) Linux"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "6. What could a company do to protect itself from a loss of data when a phone is stolen? (Choose all that apply.)",
+            "answers": [
+                "A) Passwords",
+                "B) Patching",
+                "C) Encryption",
+                "D) Remote wipe"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "7. A utility for auditing WordPress from Android is __________.",
+            "answers": [
+                "A) DroidSheep",
+                "B) Firesheep",
+                "C) WPScan",
+                "D) Nmap"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "8. What utility could be used to avoid sniffing of traffic?",
+            "answers": [
+                "A) SandroProxy",
+                "B) Proxify",
+                "C) Psiphon",
+                "D) Shark"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "9. Jennifer has captured the following URL: www.se.com/&w25;/session=22525. She realizes that she can perform a session hijack. Which utility would she use?",
+            "answers": [
+                "A) Shark",
+                "B) DroidSheep",
+                "C) Airmon",
+                "D) Droid"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "10. Jennifer is concerned about her scans being tracked back to her tablet. What could she use to hide the source of the scans?",
+            "answers": [
+                "A) Sniffing",
+                "B) SandroProxy",
+                "C) FaceNiff",
+                "D) Blind scanning"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "11. What option would you use to install software that\u2019s not from the Google Play store?",
+            "answers": [
+                "A) Install from unknown sources.",
+                "B) Install unsigned sources.",
+                "C) Install from unknown locations.",
+                "D) Install from unsigned services."
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "12. Which technology can provide protection against session hijacking?",
+            "answers": [
+                "A) IPSec",
+                "B) UDP",
+                "C) TCP",
+                "D) IDS"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "13. When a device is rooted, what is the effect on security?",
+            "answers": [
+                "A) Improved",
+                "B) Lowered",
+                "C) Stays the same",
+                "D) Hardened"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "14. Session hijacking can be thwarted with which of the following?",
+            "answers": [
+                "A) SandroProxy",
+                "B) DroidSheep",
+                "C) FaceNiff",
+                "D) Psiphon"
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "15. A denial of service application for Android is __________.",
+            "answers": [
+                "A) Blaster",
+                "B) LOIC",
+                "C) Evil",
+                "D) Pryfi"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "16. A man-in-the-browser attack delivered by a piece of malware can be prevented by which of the following?",
+            "answers": [
+                "A) Anti-virus",
+                "B) Anti-spyware",
+                "C) Using Firefox",
+                "D) Rooting a device"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "17. An attack that can be performed using FaceNiff is __________.",
+            "answers": [
+                "A) Infecting the client system",
+                "B) Infecting the server system",
+                "C) Inserting oneself into an active session",
+                "D) Inserting oneself into a web application"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "18. Remote wipes do what? (Choose two.)",
+            "answers": [
+                "A) Wipe all data off a device.",
+                "B) Remove sensitive information such as contacts from a remote system.",
+                "C) Factory reset a device.",
+                "D) Insert cookies and devices."
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "19. A session hijack can be used against a mobile device using all of the following except?",
+            "answers": [
+                "A) Emails",
+                "B) Browsers",
+                "C) Worms",
+                "D) Cookies"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "20. NetCut is used to do what? (Choose two.)",
+            "answers": [
+                "A) Test firewalls.",
+                "B) Craft packets.",
+                "C) Take over a session.",
+                "D) Scan a network."
+            ],
+            "correct": "A"
+        }
+    ]
+}

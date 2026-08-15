@@ -1,0 +1,206 @@
+{
+    "chapter": "Evasion - Chapter 17",
+    "question_count": 20,
+    "questions": [
+        {
+            "question": "1. An HIDS is used to monitor activity on which of the following?",
+            "answers": [
+                "A) Network",
+                "B) Application",
+                "C) Log file",
+                "D) Host"
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "2. Which of the following can be used to identify a firewall?",
+            "answers": [
+                "A) Search engines",
+                "B) Email",
+                "C) Port scanning",
+                "D) Google hacking"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "3. An NIDS is based on technology similar to which of the following?",
+            "answers": [
+                "A) Packet sniffing",
+                "B) Privilege escalation",
+                "C) Enumeration",
+                "D) Backdoor"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "4. Which of the following can be used to evade an IDS?",
+            "answers": [
+                "A) Packet sniffing",
+                "B) Port scanning",
+                "C) Enumeration",
+                "D) Encryption"
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "5. Altering a checksum of a packet can be used to do what?",
+            "answers": [
+                "A) Send an RST.",
+                "B) Send a URG.",
+                "C) Reset a connection.",
+                "D) Evade an NIDS."
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "6. Firewalking is done to accomplish which of the following?",
+            "answers": [
+                "A) Find the configuration of an NIDS.",
+                "B) Find the configuration of an HIDS.",
+                "C) Uncover a honeypot.",
+                "D) Analyze a firewall."
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "7. A method for overwhelming an IDS using packets with incorrect TTL values or flags is known as what?",
+            "answers": [
+                "A) Session splicing",
+                "B) Insertion",
+                "C) Fragmenting",
+                "D) ACK scanning"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "8. How does a fragmentation attack, which takes a packet, breaks it into fragments, and sends only some of the fragments to the target, cause a DoS?",
+            "answers": [
+                "A) By consuming processor power on the IDS",
+                "B) By overwhelming the IDS with too many fragments",
+                "C) By exhausting memory by caching the fragments",
+                "D) By filling virtual memory with too much data"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "9. Which of the following uses a database of known attacks?",
+            "answers": [
+                "A) Signature file",
+                "B) Anomaly",
+                "C) Behavior",
+                "D) Shellcode"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "10. An anomaly-based NIDS is designed to look for what?",
+            "answers": [
+                "A) Patterns of known attacks",
+                "B) Deviations from known traffic patterns",
+                "C) Log alterations",
+                "D) False positives"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "11. Multihomed firewall has a minimum of how many network connections?",
+            "answers": [
+                "A) Two",
+                "B) Three",
+                "C) Four",
+                "D) Five"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "12. A DMZ is created with which of the following?",
+            "answers": [
+                "A) A firewall and a router",
+                "B) A multihomed firewall",
+                "C) Two routers",
+                "D) A multihomed router"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "13. A firewall is used to separate which of the following?",
+            "answers": [
+                "A) Networks",
+                "B) Hosts",
+                "C) Permissions",
+                "D) ACL"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "14. In practice a honeypot will be configured how?",
+            "answers": [
+                "A) As an unpatched system",
+                "B) As a decoy server",
+                "C) As a duplicate of a real system",
+                "D) As an analysis tool"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "15. Which ports does SNMP use to function?",
+            "answers": [
+                "A) 160 and 161",
+                "B) 160 and 162",
+                "C) 389 and 160",
+                "D) 161 and 162"
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "16. HTTP is typically open on which port in a firewall?",
+            "answers": [
+                "A) 25",
+                "B) 443",
+                "C) 80",
+                "D) 110"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "17. What is a system used as a chokepoint for traffic?",
+            "answers": [
+                "A) IDS",
+                "B) DMZ",
+                "C) Bastion host",
+                "D) SNMP host"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "18. At which layer of the OSI model does a packet-filtering firewall work?",
+            "answers": [
+                "A) Layer 1",
+                "B) Layer 2",
+                "C) Layer 3",
+                "D) Layer 4"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "19. What type of firewall analyzes the status of traffic?",
+            "answers": [
+                "A) Circuit level",
+                "B) Packet filtering",
+                "C) Stateful inspection",
+                "D) NIDS"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "20. What can be used instead of a URL to evade some firewalls?",
+            "answers": [
+                "A) IP address",
+                "B) Encryption",
+                "C) Stateful inspection",
+                "D) NIDS"
+            ],
+            "correct": "A"
+        }
+    ]
+}

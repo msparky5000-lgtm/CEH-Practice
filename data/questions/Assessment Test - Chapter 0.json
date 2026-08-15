@@ -1,0 +1,357 @@
+{
+    "chapter": "Assessment Test - Chapter 0",
+    "question_count": 35,
+    "questions": [
+        {
+            "question": "Q1. What is the focus of a security audit or vulnerability assessment?",
+            "answers": [
+                "A) Locating vulnerabilities",
+                "B) Locating threats",
+                "C) Enacting threats",
+                "D) Exploiting vulnerabilities"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "2. What kind of physical access device restricts access to a single individual at any one time?",
+            "answers": [
+                "A) Checkpoint",
+                "B) Perimeter security",
+                "C) Security zones",
+                "D) Mantrap"
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "3. Which of the following is a mechanism for managing digital certificates through a system of trust?",
+            "answers": [
+                "A) PKI",
+                "B) PKCS",
+                "C) ISA",
+                "D) SSL"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "4. Which protocol is used to create a secure environment in a wireless network?",
+            "answers": [
+                "A) WAP",
+                "B) WPA",
+                "C) WTLS",
+                "D) WML"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "5. What type of exercise is conducted with full knowledge of the target environment?",
+            "answers": [
+                "A) White box",
+                "B) Gray box",
+                "C) Black box",
+                "D) Glass box"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "6. You want to establish a network connection between two LANs using the Internet. Which technology would best accomplish that for you?",
+            "answers": [
+                "A) IPSec",
+                "B) L2TP",
+                "C) PPP",
+                "D) SLIP"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "7. Which design concept limits access to systems from outside users while protecting users and systems inside the LAN?",
+            "answers": [
+                "A) DMZ",
+                "B) VLAN",
+                "C) I&A;",
+                "D) Router"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "8. In the key recovery process, which key must be recoverable?",
+            "answers": [
+                "A) Rollover key",
+                "B) Secret key",
+                "C) Previous key",
+                "D) Escrow key"
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "9. Which kind of attack is designed to overload a system or resource, taking it temporarily or permanently offline?",
+            "answers": [
+                "A) Spoofing",
+                "B) Trojan",
+                "C) Man in the middle",
+                "D) SYN flood"
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "10. Which component of an NIDS collects data?",
+            "answers": [
+                "A) Data source",
+                "B) Sensor",
+                "C) Event",
+                "D) Analyzer"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "11. What is the process of making an operating system secure from attack called?",
+            "answers": [
+                "A) Hardening",
+                "B) Tuning",
+                "C) Sealing",
+                "D) Locking down"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "12. The integrity component provides which feature of the CIA triad?",
+            "answers": [
+                "A) Verification that information is accurate",
+                "B) Verification that ethics are properly maintained",
+                "C) Establishment of clear access control of data",
+                "D) Verification that data is kept private and secure"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "13. Which mechanism is used by PKI to allow immediate verification of a certificate\u2019s validity?",
+            "answers": [
+                "A) CRL",
+                "B) MD5",
+                "C) SSHA",
+                "D) OCSP"
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "14. Which of the following is used to create a VLAN from a physical security perspective?",
+            "answers": [
+                "A) Hub",
+                "B) Switch",
+                "C) Router",
+                "D) Firewall"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "15. A user has just reported that he downloaded a file from a prospective client using IM. The user indicates that the file was called account.doC) The system has been behaving unusually since he downloaded the file. What is the most likely event that occurred?",
+            "answers": [
+                "A) Your user inadvertently downloaded a macro virus using IM.",
+                "B) Your user may have downloaded a rootkit.",
+                "C) Your user may have accidently changed a setting on the system.",
+                "D) The system is unstable due to the use of IM."
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "16. Which mechanism or process is used to enable or disable access to a network resource based on attacks that have been detected?",
+            "answers": [
+                "A) NIDS",
+                "B) NIPS",
+                "C) NITS",
+                "D) NADS"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "17. Which of the following would provide additional security to an Internet web server?",
+            "answers": [
+                "A) Changing the default port for traffic to 80",
+                "B) Changing the default port for traffic to 1019",
+                "C) Changing the default port for traffic to 443",
+                "D) Changing the default port for traffic to 161"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "18. What type of program exists primarily to propagate and spread itself to other systems and can do so without interaction from users?",
+            "answers": [
+                "A) Virus",
+                "B) Trojan horse",
+                "C) Logic bomb",
+                "D) Worm"
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "19. An individual presents herself at your office claiming to be a service technician. She is attempting to discuss technical details of your environment such as applications, hardware, and personnel used to manage it. This may be an example of what type of attack?",
+            "answers": [
+                "A) Social engineering",
+                "B) Access control",
+                "C) Perimeter screening",
+                "D) Behavioral engineering"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "20. Which of the following is a major security problem with FTP?",
+            "answers": [
+                "A) Password files are stored in an unsecure area on disk.",
+                "B) Memory traces can corrupt file access.",
+                "C) User IDs and passwords are unencrypted.",
+                "D) FTP sites are unregistered."
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "21. Which system would you install to provide detective capabilities within a network?",
+            "answers": [
+                "A) NIDS",
+                "B) HIDS",
+                "C) NIPS",
+                "D) HIPS"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "22. The process of maintaining the integrity of evidence and ensuring no gaps in possession occur is known as what?",
+            "answers": [
+                "A) Security investigation",
+                "B) Chain of custody",
+                "C) Three As of investigation",
+                "D) Security policy"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "23. What encryption process uses one piece of information as a carrier for another?",
+            "answers": [
+                "A) Steganography",
+                "B) Hashing",
+                "C) MDA",
+                "D) Cryptointelligence"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "24. Which policy dictates how assets can be used by employees of a company?",
+            "answers": [
+                "A) Security policy",
+                "B) User policy",
+                "C) Use policy",
+                "D) Enforcement policy",
+                "E. Acceptable use policy"
+            ],
+            "correct": "E"
+        },
+        {
+            "question": "25. Which algorithm is an asymmetric encryption protocol?",
+            "answers": [
+                "A) RSA",
+                "B) AES",
+                "C) DES",
+                "D) 3DES"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "26. Which of the following is an example of a hashing algorithm?",
+            "answers": [
+                "A) ECC",
+                "B) PKI",
+                "C) SHA",
+                "D) MD"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "27. Which of the following creates a fixed-length output from a variable-length input?",
+            "answers": [
+                "A) MD5",
+                "B) MD7",
+                "C) SHA12",
+                "D) SHA8"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "28. Granting access to a system based on a factor such as an individual\u2019s retina during a scan is an example of what type of authentication method?",
+            "answers": [
+                "A) Smart card",
+                "B) I&A;",
+                "C) Biometrics",
+                "D) CHAP"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "29. What item is also referred to as a physical address to a computer system?",
+            "answers": [
+                "A) MAC",
+                "B) DAC",
+                "C) RBAC",
+                "D) STAC"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "30. What is the process of investigating a computer system for information relating to a security incident?",
+            "answers": [
+                "A) Computer forensics",
+                "B) Virus scanning",
+                "C) Security policy",
+                "D) Evidence gathering"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "31. Which of the following is seen as a replacement for protocols such as Telnet and FTP?",
+            "answers": [
+                "A) SSL",
+                "B) SCP",
+                "C) Telnet2",
+                "D) SSH"
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "32. Which of the following is commonly used to create thumbprints for digital certificates?",
+            "answers": [
+                "A) MD5",
+                "B) MD7",
+                "C) SHA12",
+                "D) SHA8"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "33. Granting access to a system based on a factor such as a password is an example of what?",
+            "answers": [
+                "A) Something you have",
+                "B) Something you know",
+                "C) Something you are",
+                "D) Something you smell"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "34. What item is also referred to as a logical address to a computer system?",
+            "answers": [
+                "A) IP address",
+                "B) IPX address",
+                "C) MAC address",
+                "D) SMAC address"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "35. How many bits are in an IPv6 address?",
+            "answers": [
+                "A) 32",
+                "B) 64",
+                "C) 128",
+                "D) 256"
+            ],
+            "correct": "C"
+        }
+    ]
+}

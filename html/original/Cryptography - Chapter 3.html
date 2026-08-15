@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<!-- saved from url=(0122)https://web.archive.org/web/20241003190356/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter3-cryptography.php -->
+<html class="fa-events-icons-ready desktop" style="--wm-toolbar-height: 67px;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script src="./Cryptography - Chapter 3_files/athena.js.download" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app210.us.archive.org';v.server_ms=219;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="./Cryptography - Chapter 3_files/bundle-playback.js.download" charset="utf-8"></script>
+<script type="text/javascript" src="./Cryptography - Chapter 3_files/wombat.js.download" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+<script type="text/javascript" src="./Cryptography - Chapter 3_files/ruffle.js.download"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("https://www.yeahhub.com/cehv9-practice-exam-questions/chapter3-cryptography.php","20241003190356","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1727982236");
+</script>
+<link rel="stylesheet" type="text/css" href="./Cryptography - Chapter 3_files/banner-styles.css">
+<link rel="stylesheet" type="text/css" href="./Cryptography - Chapter 3_files/iconochive.css">
+<!-- End Wayback Rewrite JS Include -->
+
+		<title>Cryptography - Chapter 3</title>
+		
+		<meta name="description" content="The CEHv9 – Practice Exam Questions is your one-stop resource for complete coverage of EXAM 312-50. It all covers 100% of all exam 312-50 objectives. ">
+		<meta name="keywords" content="cehv9, certified ethical hacekr, certified ethical hacker version 9, practice exam questions, practice exam questions answers, ceh question answers, ceh mcq questions, ceh mcq answers, 19 chapters, ceh exam, ceh pass exam, ceh exam dumps, cehv9 exam dumps, ceh cyber security, cyber security, information security, ethical hacking, ethical hacker, cyber security mcq, cyber security mcq with answers, multiple choice questions, practical exam questions, 312-50 exam, ceh 312-50 exam, objective type questions, ceh questions with answers, inrtoduction, system hacking, system fundamentals, evasion, digital forensics, mobile hacking, security, website security, sql injection, scanning, enumeration, malware, website malwares, social engineering, denial of service, application hacking, web servers and applications, hacking wifi, hacking bluetooth, cryptography, intro to ethical hacking, cloud technologies and security, physical security, sniffers, footprinting">
+		<meta name="author" content="Yeahhub.com">
+		<link href="./Cryptography - Chapter 3_files/css" rel="stylesheet" type="text/css">
+		<script src="./Cryptography - Chapter 3_files/0fba0e7254.js.download"></script><link href="./Cryptography - Chapter 3_files/0fba0e7254.css" media="all" rel="stylesheet">
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+		<script src="./Cryptography - Chapter 3_files/jquery.min.js.download"></script>
+		<style type="text/css">html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}body{-webkit-text-size-adjust:none}</style><style type="text/css">@-ms-viewport{width: device-width}</style><style type="text/css">*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}</style><style type="text/css">body{min-width:1200px}.container{margin-left:auto;margin-right:auto;width:1200px}.container.small{width:900px}.container.big{width:100%;max-width:1500px;min-width:1200px}</style><style type="text/css">.\31 2u{width:100%}.\31 1u{width:91.6666666667%}.\31 0u{width:83.3333333333%}.\39 u{width:75%}.\38 u{width:66.6666666667%}.\37 u{width:58.3333333333%}.\36 u{width:50%}.\35 u{width:41.6666666667%}.\34 u{width:33.3333333333%}.\33 u{width:25%}.\32 u{width:16.6666666667%}.\31 u{width:8.3333333333%}.\-11u{margin-left:91.6666666667%}.\-10u{margin-left:83.3333333333%}.\-9u{margin-left:75%}.\-8u{margin-left:66.6666666667%}.\-7u{margin-left:58.3333333333%}.\-6u{margin-left:50%}.\-5u{margin-left:41.6666666667%}.\-4u{margin-left:33.3333333333%}.\-3u{margin-left:25%}.\-2u{margin-left:16.6666666667%}.\-1u{margin-left:8.3333333333%}</style><style type="text/css">.row>*{float:left;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}.row:after{content:'';display:block;clear:both;height:0}.row:first-child>*{padding-top:0!important}</style><style type="text/css">.row.flush{margin-left:0}.row.flush>*{padding:0!important}.row>*{padding-left:50px}.row+.row>*{padding:50px 0 0 50px}.row{margin-left:-50px}.row.half>*{padding-left:25px}.row+.row.half>*{padding:25px 0 0 25px}.row.half{margin-left:-25px}.row.quarter>*{padding-left:12.5px}.row+.row.quarter>*{padding:12.5px 0 0 12.5px}.row.quarter{margin-left:-12.5px}.row.oneandhalf>*{padding-left:75px}.row+.row.oneandhalf>*{padding:75px 0 0 75px}.row.oneandhalf{margin-left:-75px}.row.double>*{padding-left:100px}.row+.row.double>*{padding:100px 0 0 100px}.row.double{margin-left:-100px}</style><style type="text/css">.not-desktop{display:none!important}.only-mobile,.only-1000px{display:none!important}</style><link rel="stylesheet" type="text/css" href="./Cryptography - Chapter 3_files/style.css"><link rel="stylesheet" type="text/css" href="./Cryptography - Chapter 3_files/style-desktop.css"><script src="./Cryptography - Chapter 3_files/skel.min.js.download"></script>
+		<script src="./Cryptography - Chapter 3_files/skel-panels.min.js.download"></script>
+		<script src="./Cryptography - Chapter 3_files/init.js.download"></script>
+    	<script src="./Cryptography - Chapter 3_files/collapsible.js.download"></script>
+		<link href="./Cryptography - Chapter 3_files/jquerysctipttop.css" rel="stylesheet" type="text/css">
+		<noscript>
+			<link rel="stylesheet" href="/web/20241003190356cs_/https://www.yeahhub.com/cehv9-practice-exam-questions/css/skel-noscript.css"/>
+			<link rel="stylesheet" href="/web/20241003190356cs_/https://www.yeahhub.com/cehv9-practice-exam-questions/css/style.css"/>
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+		<link rel="icon" href="https://web.archive.org/web/20241003190356im_/https://www.yeahhub.com/favicon.png" type="image/x-icon">
+
+
+	</head>
+	<body style=""><div id="skel-panels-pageWrapper" style="position: relative; left: 0px; right: 0px; top: 0px; backface-visibility: hidden; transition: -webkit-transform 0.25s ease-in-out;"><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" lang="en" style="display: block; direction: ltr; height: 67px;" toolbar-mode="auto"><template shadowrootmode="closed"><div id="wm-ipp" style="position:fixed;left:0;top:0;right:0;">
+<div id="donato" style="position:relative;width:100%;height:0;">
+  <div id="donato-base">
+    <iframe id="donato-if" src="https://archive.org/includes/donate.php?as_page=1&amp;platform=wb&amp;referer=https%3A//web.archive.org/web/20241003190356/https%3A//www.yeahhub.com/cehv9-practice-exam-questions/chapter3-cryptography.php" scrolling="no" frameborder="0" style="width:100%; height:100%">
+    </iframe>
+  </div>
+</div><div id="wm-ipp-inside">
+  <div id="wm-toolbar" style="position:relative;display:flex;flex-flow:row nowrap;justify-content:space-between;" nav="async">
+    <div id="wm-logo" style="/*width:110px;*/padding-top:12px;">
+      <a href="https://web.archive.org/web/" title="Wayback Machine home page"><img src="https://web-static.archive.org/_static/images/toolbar/wayback-toolbar-logo-200.png" srcset="https://web-static.archive.org/_static/images/toolbar/wayback-toolbar-logo-100.png, https://web-static.archive.org/_static/images/toolbar/wayback-toolbar-logo-150.png 1.5x, https://web-static.archive.org/_static/images/toolbar/wayback-toolbar-logo-200.png 2x" alt="Wayback Machine" style="width:100px" border="0"></a>
+    </div>
+    <div class="c" style="display:flex;flex-flow:column nowrap;justify-content:space-between;flex:1;">
+      <form class="u" style="display:flex;flex-direction:row;flex-wrap:nowrap;" target="_top" method="get" action="https://web.archive.org/web/submit" name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" value="https://www.yeahhub.com/cehv9-practice-exam-questions/chapter3-cryptography.php" onfocus="this.focus();this.select();" style="flex:1;" autocomplete="off"><input type="hidden" name="type" value="replay"><input type="hidden" name="date" value="20241003190356"><input type="submit" value="Go">
+      </form>
+      <div style="display:flex;flex-flow:row nowrap;align-items:flex-end;">
+                <div class="s" id="wm-nav-captures" style="flex:1;"><a class="t" href="https://web.archive.org/web/*/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter3-cryptography.php" title="See a list of every capture for this URL">43 captures</a><div class="r" title="Timespan for captures of this URL">18 Sep 2017 - 8 Feb 2025</div></div>
+        <div class="k">
+          <a href="https://web.archive.org/web/20241003190356/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter3-cryptography.php" id="wm-graph-anchor">
+            <div id="wm-ipp-sparkline" title="Explore captures for this URL" style="position: relative">
+              <canvas id="wm-sparkline-canvas" width="775" height="27" border="0"></canvas>
+            <div class="yt" style="display: none; width: 25px; height: 27px;"></div><div class="mt" style="display: none; width: 2px; height: 27px;"></div></div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="n">
+      <table>
+        <tbody>
+          <!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+          <tr class="m">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20221128103259/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter3-cryptography.php" title="10:32:59 Nov 28, 2022">Nov</a></td>
+            <td class="c" id="displayMonthEl" title="You are here: 19:03:56 Oct 03, 2024">OCT</td>
+            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20250208052124/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter3-cryptography.php" title="05:21:24 Feb 8, 2025">Feb</a></td>
+          </tr>
+          <!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+          <tr class="d">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20221128103259/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter3-cryptography.php" title="10:32:59 Nov 28, 2022"><span class="ta"></span></a></td>
+            <td class="c" id="displayDayEl" style="width:34px;font-size:22px;white-space:nowrap;" title="You are here: 19:03:56 Oct 03, 2024">03</td>
+            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20250208052124/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter3-cryptography.php" title="05:21:24 Feb 8, 2025"><span class="ta"></span></a></td>
+          </tr>
+          <!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+          <tr class="y">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20221128103259/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter3-cryptography.php" title="10:32:59 Nov 28, 2022">2022</a></td>
+            <td class="c" id="displayYearEl" title="You are here: 19:03:56 Oct 03, 2024">2024</td>
+            <td class="f" nowrap="nowrap">2025</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="r" style="display:flex;flex-flow:column nowrap;align-items:flex-end;justify-content:space-between;">
+      <div id="wm-btns" style="text-align:right;height:23px;">
+                <span class="xxs">
+          <div id="wm-save-snapshot-success">success</div>
+          <div id="wm-save-snapshot-fail">fail</div>
+          <a id="wm-save-snapshot-open" href="https://web.archive.org/web/20241003190356/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter3-cryptography.php#" title="Share via My Web Archive" style="display: none;">
+            <span class="iconochive-web"></span>
+          </a>
+          <a href="https://archive.org/account/login.php" title="Sign In" id="wm-sign-in" style="display: inline-block;">
+            <span class="iconochive-person"></span>
+          </a>
+          <span id="wm-save-snapshot-in-progress" class="iconochive-web" style="display: none;"></span>
+        </span>
+                <a class="xxs" href="https://help.archive.org/help/category/the-wayback-machine/" title="Get some help using the Wayback Machine" style="top:-6px;"><span class="iconochive-question" style="color:rgb(87,186,244);font-size:160%;"></span></a>
+        <a id="wm-tb-close" href="https://web.archive.org/web/20241003190356/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter3-cryptography.php#close" style="top:-2px;" title="Close the toolbar"><span class="iconochive-remove-circle" style="color:#888888;font-size:240%;"></span></a>
+      </div>
+      <div id="wm-share" class="xxs">
+        <a href="https://web.archive.org/web/20241003190356/http://web.archive.org/screenshot/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter3-cryptography.php" id="wm-screenshot" title="screenshot" style="visibility: hidden;">
+          <span class="wm-icon-screen-shot"></span>
+        </a>
+        <a href="https://web.archive.org/web/20241003190356/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter3-cryptography.php#" id="wm-video" title="video">
+          <span class="iconochive-movies"></span>
+        </a>
+        <a id="wm-share-facebook" href="https://web.archive.org/web/20241003190356/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter3-cryptography.php#" data-url="https://web.archive.org/web/20241003190356/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter3-cryptography.php" title="Share on Facebook" style="margin-right:5px;" target="_blank"><span class="iconochive-facebook" style="color:#3b5998;font-size:160%;"></span></a>
+        <a id="wm-share-twitter" href="https://web.archive.org/web/20241003190356/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter3-cryptography.php#" data-url="https://web.archive.org/web/20241003190356/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter3-cryptography.php" title="Share on Twitter" style="margin-right:5px;" target="_blank"><span class="iconochive-twitter" style="color:#1dcaff;font-size:160%;"></span></a>
+      </div>
+      <div style="padding-right:2px;text-align:right;white-space:nowrap;">
+        <a id="wm-expand" class="wm-btn wm-closed" href="https://web.archive.org/web/20241003190356/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter3-cryptography.php#expand"><span id="wm-expand-icon" class="iconochive-down-solid"></span> <span class="xxs" style="font-size:80%;">About this capture</span></a>
+      </div>
+    </div>
+  </div>
+    <div id="wm-capinfo" style="border-top:1px solid #777;display:none; overflow: hidden">
+        <div id="wm-capinfo-notice" source="api"></div>
+                <div id="wm-capinfo-collected-by">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center;padding:2px 0;">COLLECTED BY</div>
+    <div style="padding:3px;position:relative" id="wm-collected-by-content">
+      <div style="display:inline-block;vertical-align:top;width:49%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/commoncrawl)"></span>
+		<div>Collection: <a style="color:#33f;" href="https://archive.org/details/commoncrawl" target="_new"><span class="wm-title">Common Crawl</span></a></div>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Web crawl data from Common Crawl.
+	</div>
+	      </div>
+    </div>
+    </div>
+    <div id="wm-capinfo-timestamps">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center;padding:2px 0;" title="Timestamps for the elements of this page">TIMESTAMPS</div>
+    <div>
+      <div id="wm-capresources" style="margin:0 5px 5px 5px;max-height:250px;overflow-y:scroll !important"></div>
+      <div id="wm-capresources-loading" style="text-align:left;margin:0 20px 5px 5px;display:none"><img src="https://web-static.archive.org/_static/images/loading.gif" alt="loading"></div>
+    </div>
+    </div>
+  </div></div></div><link rel="stylesheet" type="text/css" href="./Cryptography - Chapter 3_files/banner-styles.css"><link rel="stylesheet" type="text/css" href="./Cryptography - Chapter 3_files/iconochive.css"><div class="wb-autocomplete-suggestions "></div></template>
+</div><div id="wm-ipp-print">The Wayback Machine - https://web.archive.org/web/20241003190356/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter3-cryptography.php</div>
+<script type="text/javascript">//<![CDATA[
+__wm.bt(775,27,25,2,"web","https://www.yeahhub.com/cehv9-practice-exam-questions/chapter3-cryptography.php","20241003190356",1996,"https://web-static.archive.org/_static/",["https://web-static.archive.org/_static/css/banner-styles.css?v=1utQkbB3","https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv"], false);
+  __wm.rw(1);
+//]]></script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+ 
+		<div id="wrapper">
+			
+			<!-- Header -->
+			<div id="header">
+				<div class="container"> 
+					
+					<!-- Logo -->
+					<div id="logo">
+						<h1><a href="https://web.archive.org/web/20241003190356/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter3-cryptography.php">Cryptography</a></h1>
+						<span>CEHv9 - Practice Exam Questions with Answers</span>
+					</div>
+					
+					<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li class="active"><a href="https://web.archive.org/web/20241003190356/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter3-cryptography.php#page">Scroll More</a></li>
+							<li class="active"><a href="https://web.archive.org/web/20241003190356/https://www.yeahhub.com/cehv9-practice-exam-questions/index.php">Back to Main</a></li>
+
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<!-- /Header -->
+			
+			<div id="page">
+				<div class="container">
+					<div class="row">
+						<div class="3u">
+						<section id="sidebar1">
+<header>
+<h2>Contents</h2><hr>
+</header>
+<ul class="style1">
+    <li class="first"><span class="fa fa-long-arrow-right"></span><a href="https://web.archive.org/web/20241003190356/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter0-assessment.php">Assessment Test</a></li>
+    <li><span class="fa fa-long-arrow-right"></span><a href="https://web.archive.org/web/20241003190356/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter1-introduction.php">Introduction</a></li>
+    <li><span class="fa fa-long-arrow-right"></span><a href="https://web.archive.org/web/20241003190356/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter2-system-fundamentals.php">System Fundamentals</a></li>
+    <li><span class="fa fa-long-arrow-right"></span><a href="https://web.archive.org/web/20241003190356/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter3-cryptography.php">Cryptography</a></li>
+    <li><span class="fa fa-long-arrow-right"></span><a href="https://web.archive.org/web/20241003190356/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter4-footprinting.php">Footprinting</a></li>
+    <li><span class="fa fa-long-arrow-right"></span><a href="https://web.archive.org/web/20241003190356/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter5-scanning.php">Scanning</a></li>
+    <li><span class="fa fa-long-arrow-right"></span><a href="https://web.archive.org/web/20241003190356/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter6-enumeration.php">Enumeration</a></li>
+    <li><span class="fa fa-long-arrow-right"></span><a href="https://web.archive.org/web/20241003190356/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter7-system-hacking.php">System Hacking</a></li>
+    <li><span class="fa fa-long-arrow-right"></span><a href="https://web.archive.org/web/20241003190356/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter8-malware.php">Malware</a></li>
+    <li><span class="fa fa-long-arrow-right"></span><a href="https://web.archive.org/web/20241003190356/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter9-sniffers.php">Sniffers</a></li>
+    <li><span class="fa fa-long-arrow-right"></span><a href="https://web.archive.org/web/20241003190356/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter10-social-engineering.php">Social Engineering</a></li>
+    <li><span class="fa fa-long-arrow-right"></span><a href="https://web.archive.org/web/20241003190356/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter11-denial-of-service.php">Denial of Service</a></li>
+    <li><span class="fa fa-long-arrow-right"></span><a href="https://web.archive.org/web/20241003190356/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter12-session-hijacking.php">Session Hijacking</a></li>
+    <li><span class="fa fa-long-arrow-right"></span><a href="https://web.archive.org/web/20241003190356/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter13-web-server-applications.php">Web Servers &amp; Applications</a></li>
+    <li><span class="fa fa-long-arrow-right"></span><a href="https://web.archive.org/web/20241003190356/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter14-sql-injection.php">SQL Injection</a></li>
+    <li><span class="fa fa-long-arrow-right"></span><a href="https://web.archive.org/web/20241003190356/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter15-hacking-wifi-bluetooth.php">Hacking Wi-Fi &amp; Bluetooth</a></li>
+    <li><span class="fa fa-long-arrow-right"></span><a href="https://web.archive.org/web/20241003190356/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter16-mobile-device-security.php">Mobile Device Security</a></li>
+    <li><span class="fa fa-long-arrow-right"></span><a href="https://web.archive.org/web/20241003190356/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter17-evasion.php">Evasion</a></li>
+    <li><span class="fa fa-long-arrow-right"></span><a href="https://web.archive.org/web/20241003190356/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter18-cloud-technologies-security.php">Cloud Technologies &amp; Security</a></li>
+    <li><span class="fa fa-long-arrow-right"></span><a href="https://web.archive.org/web/20241003190356/https://www.yeahhub.com/cehv9-practice-exam-questions/chapter19-physical-security.php">Physical Security</a></li>
+</ul>
+<a href="https://web.archive.org/web/20241003190356/http://www.yeahhub.com/complete-php-tutorial-series-chapter-1-chapter-8/"><img src="./Cryptography - Chapter 3_files/banner1.jpg" class="imgresponsive"></a>
+<br><br>
+<a href="https://web.archive.org/web/20241003190356/https://www.bluehost.com/track/yeahhub/" target="_blank"> <img border="0" class="imgresponsive" src="./Cryptography - Chapter 3_files/430x288PW.png"> </a>
+
+</section>
+						</div>
+						<div class="6u skel-cell-important">
+						<div class="header">Total No. of Questions = 20</div>
+						<hr>
+							<section id="content">
+								
+<div class="pad">
+<p>1. Symmetric cryptography is also known as __________.</p>
+<ul>
+<li>A) Shared key cryptography
+</li><li>B) Public key cryptography
+</li><li>C) Hashing
+</li><li>D) Steganography
+</li></ul>
+
+<div class="collapsible">
+<div class="collapse-container collapse-close"><div class="collapse-head"><h2>Show Answer</h2></div>
+<div class="collapse-content" style="display: none;"><strong>The Correct Answer is:-</strong> A</div></div>
+</div>
+
+<hr>
+<p>2. Which of the following manages digital certificates?</p>
+<ul>
+<li>A) Hub
+</li><li>B) Key
+</li><li>C) Public key
+</li><li>D) Certificate authority
+</li></ul>
+
+<div class="collapsible">
+<div class="collapse-container collapse-close"><div class="collapse-head"><h2>Show Answer</h2></div>
+<div class="collapse-content" style="display: none;"><strong>The Correct Answer is:-</strong> D</div></div>
+</div>
+
+<hr>
+<p>3. Asymmetric encryption is also referred to as which of the following?</p>
+<ul>
+<li>A) Shared key
+</li><li>B) Public key
+</li><li>C) Hashing
+</li><li>D) Block
+</li></ul>
+
+<div class="collapsible">
+<div class="collapse-container collapse-close"><div class="collapse-head"><h2>Show Answer</h2></div>
+<div class="collapse-content" style="display: none;"><strong>The Correct Answer is:-</strong> B</div></div>
+</div>
+
+<hr>
+<p>4. Which of the following best describes hashing?</p>
+<ul>
+<li>A) An algorithm
+</li><li>B) A cipher
+</li><li>C) Nonreversible
+</li><li>D) A cryptosystem
+</li></ul>
+
+<div class="collapsible">
+<div class="collapse-container collapse-close"><div class="collapse-head"><h2>Show Answer</h2></div>
+<div class="collapse-content" style="display: none;"><strong>The Correct Answer is:-</strong> C</div></div>
+</div>
+    
+						  
+						    
+<hr>
+<p>5. A message digest is a product of which kind of algorithm?</p>
+<ul>
+<li>A) Symmetric
+</li><li>B) Asymmetric
+</li><li>C) Hashing
+</li><li>D) Steganography
+</li></ul>
+
+<div class="collapsible">
+<div class="collapse-container collapse-close"><div class="collapse-head"><h2>Show Answer</h2></div>
+<div class="collapse-content" style="display: none;"><strong>The Correct Answer is:-</strong> C</div></div>
+</div>
+
+<hr>
+<p>6. A public and private key system differs from symmetric because it uses which of the following?</p>
+<ul>
+<li>A) One key
+</li><li>B) One algorithm
+</li><li>C) Two keys
+</li><li>D) Two algorithms
+</li></ul>
+
+<div class="collapsible">
+<div class="collapse-container collapse-close"><div class="collapse-head"><h2>Show Answer</h2></div>
+<div class="collapse-content" style="display: none;"><strong>The Correct Answer is:-</strong> C</div></div>
+</div>
+
+<hr>
+<p>7. A public key is stored on the local computer by its owner in a __________.</p>
+<ul>
+<li>A) Hash
+</li><li>B) PKI system
+</li><li>C) Smart card
+</li><li>D) Private key
+</li></ul>
+
+<div class="collapsible">
+<div class="collapse-container collapse-close"><div class="collapse-head"><h2>Show Answer</h2></div>
+<div class="collapse-content" style="display: none;"><strong>The Correct Answer is:-</strong> B</div></div>
+</div>
+
+<hr>
+<p>8. Symmetric key systems have key distribution problems due to __________.</p>
+<ul>
+<li>A) Number of keys
+</li><li>B) Generation of key pairs
+</li><li>C) Amount of data
+</li><li>D) Type of data
+</li></ul>
+
+<div class="collapsible">
+<div class="collapse-container collapse-close"><div class="collapse-head"><h2>Show Answer</h2></div>
+<div class="collapse-content" style="display: none;"><strong>The Correct Answer is:-</strong> A</div></div>
+</div>
+
+<hr>
+<p>9. What does hashing preserve in relation to data?</p>
+<ul>
+<li>A) Integrity
+</li><li>B) Confidentiality
+</li><li>C) Availability
+</li><li>D) Repudiation
+</li></ul>
+
+<div class="collapsible">
+<div class="collapse-container collapse-close"><div class="collapse-head"><h2>Show Answer</h2></div>
+<div class="collapse-content" style="display: none;"><strong>The Correct Answer is:-</strong> A</div></div>
+</div>
+
+<hr>
+<p>10. Which of the following is a common hashing protocol?</p>
+<ul>
+<li>A) MD5
+</li><li>B) AES
+</li><li>C) DES
+</li><li>D) RSA
+</li></ul>
+
+<div class="collapsible">
+<div class="collapse-container collapse-close"><div class="collapse-head"><h2>Show Answer</h2></div>
+<div class="collapse-content" style="display: none;"><strong>The Correct Answer is:-</strong> A</div></div>
+</div>
+
+<hr>
+<p>11. Which of the following best describes PGP?</p>
+<ul>
+<li>A) A symmetric algorithm
+</li><li>B) A type of key
+</li><li>C) A way of encrypting data in a reversible method
+</li><li>D) A key escrow system
+</li></ul>
+
+<div class="collapsible">
+<div class="collapse-container collapse-close"><div class="collapse-head"><h2>Show Answer</h2></div>
+<div class="collapse-content" style="display: none;"><strong>The Correct Answer is:-</strong> C</div></div>
+</div>
+    
+						   
+						    
+<hr>
+<p>12. SSL is a mechanism for which of the following?</p>
+<ul>
+<li>A) Securing stored data
+</li><li>B) Securing transmitted data
+</li><li>C) Verifying data
+</li><li>D) Authenticating data
+</li></ul>
+
+<div class="collapsible">
+<div class="collapse-container collapse-close"><div class="collapse-head"><h2>Show Answer</h2></div>
+<div class="collapse-content" style="display: none;"><strong>The Correct Answer is:-</strong> B</div></div>
+</div>
+
+<hr>
+<p>13. Which system does SSL use to function?</p>
+<ul>
+<li>A) AES
+</li><li>B) DES
+</li><li>C) 3DES
+</li><li>D) PKI
+</li></ul>
+
+<div class="collapsible">
+<div class="collapse-container collapse-close"><div class="collapse-head"><h2>Show Answer</h2></div>
+<div class="collapse-content" style="display: none;"><strong>The Correct Answer is:-</strong> D</div></div>
+</div>
+
+<hr>
+<p>14. In IPsec, encryption and other processes happen at which layer of the OSI model?</p>
+<ul>
+<li>A) Level 1
+</li><li>B) Level 2
+</li><li>C) Level 3
+</li><li>D) Level 4
+</li></ul>
+
+<div class="collapsible">
+<div class="collapse-container collapse-close"><div class="collapse-head"><h2>Show Answer</h2></div>
+<div class="collapse-content" style="display: none;"><strong>The Correct Answer is:-</strong> C</div></div>
+</div>
+
+<hr>
+<p>15. In IPsec, what does Authentication Header (AH) provide?</p>
+<ul>
+<li>A) Data security
+</li><li>B) Header security
+</li><li>C) Authentication services
+</li><li>D) Encryption
+</li></ul>
+
+<div class="collapsible">
+<div class="collapse-container collapse-close"><div class="collapse-head"><h2>Show Answer</h2></div>
+<div class="collapse-content" style="display: none;"><strong>The Correct Answer is:-</strong> C</div></div>
+</div>
+
+<hr>
+<p>16. In IPsec, what does Encapsulating Security Payload (ESP) provide?</p>
+<ul>
+<li>A) Data security
+</li><li>B) Header security
+</li><li>C) Authentication services
+</li><li>D) Integrity
+</li></ul>
+
+<div class="collapsible">
+<div class="collapse-container collapse-close"><div class="collapse-head"><h2>Show Answer</h2></div>
+<div class="collapse-content" style="display: none;"><strong>The Correct Answer is:-</strong> A</div></div>
+</div>
+
+<hr>
+<p>17. At what point can SSL be used to protect data?</p>
+<ul>
+<li>A) On a hard drive
+</li><li>B) On a flash drive
+</li><li>C) On Bluetooth
+</li><li>D) During transmission
+</li></ul>
+
+<div class="collapsible">
+<div class="collapse-container collapse-close"><div class="collapse-head"><h2>Show Answer</h2></div>
+<div class="collapse-content" style="display: none;"><strong>The Correct Answer is:-</strong> D</div></div>
+</div>
+
+<hr>
+<p>18. Which of the following does IPsec use?</p>
+<ul>
+<li>A) SSL
+</li><li>B) AES
+</li><li>C) DES
+</li><li>D) PKI
+</li></ul>
+
+<div class="collapsible">
+<div class="collapse-container collapse-close"><div class="collapse-head"><h2>Show Answer</h2></div>
+<div class="collapse-content" style="display: none;"><strong>The Correct Answer is:-</strong> D</div></div>
+</div>
+
+<hr>
+<p>19. Who first developed SSL?</p>
+<ul>
+<li>A) Netscape
+</li><li>B) Microsoft
+</li><li>C) Sun
+</li><li>D) Oracle
+</li></ul>
+
+<div class="collapsible">
+<div class="collapse-container collapse-close"><div class="collapse-head"><h2>Show Answer</h2></div>
+<div class="collapse-content" style="display: none;"><strong>The Correct Answer is:-</strong> A</div></div>
+</div>
+
+<hr>
+<p>20. IPsec uses which two modes?</p>
+<ul>
+<li>A) AH/ESP
+</li><li>B) AES/DES
+</li><li>C) EH/ASP
+</li><li>D) AES/ESP
+</li></ul>
+
+<div class="collapsible">
+<div class="collapse-container collapse-close"><div class="collapse-head"><h2>Show Answer</h2></div>
+<div class="collapse-content" style="display: none;"><strong>The Correct Answer is:-</strong> A</div></div>
+</div>
+
+</div>
+								
+								
+							</section>
+						</div>
+						<div class="3u">
+							<section id="sidebard2">
+								
+								
+									
+							</section>
+						</div>
+					</div>
+
+				</div>	
+			</div>
+
+
+			
+
+<!-- Copyright -->
+        <div id="copyright">
+        <div class="container">
+        Copyright © 2017. All Rights Reserved | Developed by Yeah Hub Team <a href="https://web.archive.org/web/20241003190356/https://www.yeahhub.com/">Yeahhub</a>
+        </div>
+        </div>			
+        
+        </div>
+
+        <!-- Scrolling Javascript -->
+        <script>var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+let window = _____WB$wombat$assign$function_____("window");
+let globalThis = _____WB$wombat$assign$function_____("globalThis");
+let self = _____WB$wombat$assign$function_____("self");
+let document = _____WB$wombat$assign$function_____("document");
+let location = _____WB$wombat$assign$function_____("location");
+let top = _____WB$wombat$assign$function_____("top");
+let parent = _____WB$wombat$assign$function_____("parent");
+let frames = _____WB$wombat$assign$function_____("frames");
+let opener = _____WB$wombat$assign$function_____("opener");
+{
+$(function() {
+          $('a[href*="#"]:not([href="#"])').click(function() {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+              var target = $(this.hash);
+              target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+              if (target.length) {
+                $('html, body').animate({
+                  scrollTop: target.offset().top
+                }, 1000);
+                return false;
+              }
+            }
+          });
+        });
+
+}}</script>
+		<script>var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+let window = _____WB$wombat$assign$function_____("window");
+let globalThis = _____WB$wombat$assign$function_____("globalThis");
+let self = _____WB$wombat$assign$function_____("self");
+let document = _____WB$wombat$assign$function_____("document");
+let location = _____WB$wombat$assign$function_____("location");
+let top = _____WB$wombat$assign$function_____("top");
+let parent = _____WB$wombat$assign$function_____("parent");
+let frames = _____WB$wombat$assign$function_____("frames");
+let opener = _____WB$wombat$assign$function_____("opener");
+{
+$(document).ready(function() {
+            $('.collapsible').collapsible();
+        });
+
+}}</script>
+        <!-- Scrolling Javascript --><!-- Google tag (gtag.js) -->
+<script async="" src="./Cryptography - Chapter 3_files/js"></script>
+<script>var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+let window = _____WB$wombat$assign$function_____("window");
+let globalThis = _____WB$wombat$assign$function_____("globalThis");
+let self = _____WB$wombat$assign$function_____("self");
+let document = _____WB$wombat$assign$function_____("document");
+let location = _____WB$wombat$assign$function_____("location");
+let top = _____WB$wombat$assign$function_____("top");
+let parent = _____WB$wombat$assign$function_____("parent");
+let frames = _____WB$wombat$assign$function_____("frames");
+let opener = _____WB$wombat$assign$function_____("opener");
+{
+window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XK8S41LNQL');
+
+}}</script>
+
+
+</div><div id="skel-panels-defaultWrapper" style="height: 100%;"></div><div id="skel-panels-fixedWrapper" style="position: relative;"></div></body></html>

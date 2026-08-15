@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://web.archive.org/web/20240910172411im_/https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh7USSwiPHA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://web.archive.org/web/20240910172411im_/https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHjx4wWw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://web.archive.org/web/20240910172411im_/https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh6UVSwiPHA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  src: url(https://web.archive.org/web/20240910172411im_/https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh50XSwiPHA.ttf) format('truetype');
+}
+
+/*
+     FILE ARCHIVED ON 17:24:11 Sep 10, 2024 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:15:01 Feb 03, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.849
+  exclusion.robots: 0.025
+  exclusion.robots.policy: 0.011
+  esindex: 0.013
+  cdx.remote: 37.449
+  LoadShardBlock: 309.739 (6)
+  PetaboxLoader3.datanode: 301.791 (7)
+  load_resource: 63.275
+  PetaboxLoader3.resolve: 41.376
+*/

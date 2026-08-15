@@ -1,0 +1,206 @@
+{
+    "chapter": "Cryptography - Chapter 3",
+    "question_count": 20,
+    "questions": [
+        {
+            "question": "1. Symmetric cryptography is also known as __________.",
+            "answers": [
+                "A) Shared key cryptography",
+                "B) Public key cryptography",
+                "C) Hashing",
+                "D) Steganography"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "2. Which of the following manages digital certificates?",
+            "answers": [
+                "A) Hub",
+                "B) Key",
+                "C) Public key",
+                "D) Certificate authority"
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "3. Asymmetric encryption is also referred to as which of the following?",
+            "answers": [
+                "A) Shared key",
+                "B) Public key",
+                "C) Hashing",
+                "D) Block"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "4. Which of the following best describes hashing?",
+            "answers": [
+                "A) An algorithm",
+                "B) A cipher",
+                "C) Nonreversible",
+                "D) A cryptosystem"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "5. A message digest is a product of which kind of algorithm?",
+            "answers": [
+                "A) Symmetric",
+                "B) Asymmetric",
+                "C) Hashing",
+                "D) Steganography"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "6. A public and private key system differs from symmetric because it uses which of the following?",
+            "answers": [
+                "A) One key",
+                "B) One algorithm",
+                "C) Two keys",
+                "D) Two algorithms"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "7. A public key is stored on the local computer by its owner in a __________.",
+            "answers": [
+                "A) Hash",
+                "B) PKI system",
+                "C) Smart card",
+                "D) Private key"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "8. Symmetric key systems have key distribution problems due to __________.",
+            "answers": [
+                "A) Number of keys",
+                "B) Generation of key pairs",
+                "C) Amount of data",
+                "D) Type of data"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "9. What does hashing preserve in relation to data?",
+            "answers": [
+                "A) Integrity",
+                "B) Confidentiality",
+                "C) Availability",
+                "D) Repudiation"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "10. Which of the following is a common hashing protocol?",
+            "answers": [
+                "A) MD5",
+                "B) AES",
+                "C) DES",
+                "D) RSA"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "11. Which of the following best describes PGP?",
+            "answers": [
+                "A) A symmetric algorithm",
+                "B) A type of key",
+                "C) A way of encrypting data in a reversible method",
+                "D) A key escrow system"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "12. SSL is a mechanism for which of the following?",
+            "answers": [
+                "A) Securing stored data",
+                "B) Securing transmitted data",
+                "C) Verifying data",
+                "D) Authenticating data"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "13. Which system does SSL use to function?",
+            "answers": [
+                "A) AES",
+                "B) DES",
+                "C) 3DES",
+                "D) PKI"
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "14. In IPsec, encryption and other processes happen at which layer of the OSI model?",
+            "answers": [
+                "A) Level 1",
+                "B) Level 2",
+                "C) Level 3",
+                "D) Level 4"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "15. In IPsec, what does Authentication Header (AH) provide?",
+            "answers": [
+                "A) Data security",
+                "B) Header security",
+                "C) Authentication services",
+                "D) Encryption"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "16. In IPsec, what does Encapsulating Security Payload (ESP) provide?",
+            "answers": [
+                "A) Data security",
+                "B) Header security",
+                "C) Authentication services",
+                "D) Integrity"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "17. At what point can SSL be used to protect data?",
+            "answers": [
+                "A) On a hard drive",
+                "B) On a flash drive",
+                "C) On Bluetooth",
+                "D) During transmission"
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "18. Which of the following does IPsec use?",
+            "answers": [
+                "A) SSL",
+                "B) AES",
+                "C) DES",
+                "D) PKI"
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "19. Who first developed SSL?",
+            "answers": [
+                "A) Netscape",
+                "B) Microsoft",
+                "C) Sun",
+                "D) Oracle"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "20. IPsec uses which two modes?",
+            "answers": [
+                "A) AH/ESP",
+                "B) AES/DES",
+                "C) EH/ASP",
+                "D) AES/ESP"
+            ],
+            "correct": "A"
+        }
+    ]
+}

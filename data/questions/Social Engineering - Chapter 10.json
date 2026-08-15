@@ -1,0 +1,206 @@
+{
+    "chapter": "Social Engineering - Chapter 10",
+    "question_count": 20,
+    "questions": [
+        {
+            "question": "1. Phishing takes place using __________.",
+            "answers": [
+                "A) Instant messaging",
+                "B) Email",
+                "C) Websites",
+                "D) Piggybacking"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "2. Training and education of end users can be used to prevent __________.",
+            "answers": [
+                "A) Phishing",
+                "B) Tailgating/piggybacking",
+                "C) Session hijacking",
+                "D) Wireshark"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "3. Social engineering can be thwarted using what kinds of controls?",
+            "answers": [
+                "A) Technical",
+                "B) Administrative",
+                "C) Physical",
+                "D) Proactive controls"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "4. Social engineering preys on many weaknesses, including __________.",
+            "answers": [
+                "A) Technology",
+                "B) People",
+                "C) Human nature",
+                "D) Physical"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "5. Social engineering can use all the following except __________.",
+            "answers": [
+                "A) Mobile phones",
+                "B) Instant messaging",
+                "C) Trojan horses",
+                "D) Viruses"
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "6. Social engineering is designed to __________.",
+            "answers": [
+                "A) Manipulate human behavior",
+                "B) Make people distrustful",
+                "C) Infect a system",
+                "D) Gain a physical advantage"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "7. Phishing can be mitigated through the use of __________.",
+            "answers": [
+                "A) Spam filtering",
+                "B) Education",
+                "C) Antivirus",
+                "D) Anti-malware"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "8. Which mechanism can be used to influence a targeted individual?",
+            "answers": [
+                "A) Means of dress or appearance",
+                "B) Technological controls",
+                "C) Physical controls",
+                "D) Training"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "9. Jennifer receives an email claiming that her bank account information has been lost and that she needs to click a link to update the bank\u2019s database. However, she doesn\u2019t recognize the bank, because it is not one she does business with. What type of attack is she being presented with?",
+            "answers": [
+                "A) Phishing",
+                "B) Spam",
+                "C) Whaling",
+                "D) Vishing"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "10. What is the best option for thwarting social-engineering attacks?",
+            "answers": [
+                "A) Technology",
+                "B) Training",
+                "C) Policies",
+                "D) Physical controls"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "11. Janet receives an email enticing her to click a link. But when she clicks this link she is taken to a website for her bank, asking her to reset her account info. However, Janet noticed that the bank is not hers and the website is not for her bank. What type of attack is this?",
+            "answers": [
+                "A) Whaling",
+                "B) Vishing",
+                "C) Phishing",
+                "D) Piggybacking"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "12. Jason receives notices that he has unauthorized charges on his credit card account. What type of attack is Jason a victim of?",
+            "answers": [
+                "A) Social engineering",
+                "B) Phishing",
+                "C) Identity theft",
+                "D) Bad luck"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "13. A security camera picks up someone who doesn\u2019t work at the company following closely behind an employee while they enter the building. What type of attack is taking place?",
+            "answers": [
+                "A) Phishing",
+                "B) Walking",
+                "C) Gate running",
+                "D) Tailgating"
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "14. What is a vulnerability scan designed to provide to those executing it?",
+            "answers": [
+                "A) A way to find open ports",
+                "B) A way to diagram a network",
+                "C) A proxy attack",
+                "D) A way to reveal vulnerabilities"
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "15. In social engineering a proxy is used to __________.",
+            "answers": [
+                "A) Assist in scanning",
+                "B) Perform a scan",
+                "C) Keep an attacker\u2019s origin hidden",
+                "D) Automate the discovery of vulnerabilities"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "16. Social engineering can be used to carry out email campaigns known as __________.",
+            "answers": [
+                "A) Spamming",
+                "B) Phishing",
+                "C) Vishing",
+                "D) Splashing"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "17. Human beings tend to follow set patterns and behaviors known as __________.",
+            "answers": [
+                "A) Repetition",
+                "B) Habits",
+                "C) Primacy",
+                "D) Piggybacking"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "18. When talking to a victim, using __________ can make an attack easier.",
+            "answers": [
+                "A) Eye contact",
+                "B) Keywords",
+                "C) Jargon",
+                "D) Threats"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "19. An attacker can use which technique to influence a victim?",
+            "answers": [
+                "A) Tailgating",
+                "B) Piggybacking",
+                "C) Name-dropping",
+                "D) Acting like tech support"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "20. Jason notices that he is receiving mail, phone calls, and other requests for information. He has also noticed some problems with his credit checks such as bad debts and loans he did not participate in. What type of attack did Jason become a victim of?",
+            "answers": [
+                "A) Social engineering",
+                "B) Phishing",
+                "C) Identity theft",
+                "D) Bad luck"
+            ],
+            "correct": "C"
+        }
+    ]
+}

@@ -1,0 +1,206 @@
+{
+    "chapter": "Scanning - Chapter 5",
+    "question_count": 20,
+    "questions": [
+        {
+            "question": "1. Which of the following is used for banner grabbing?",
+            "answers": [
+                "A) Telnet",
+                "B) FTP",
+                "C) SSH",
+                "D) Wireshark"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "2. Which of the following is used for identifying a web server OS?",
+            "answers": [
+                "A) Telnet",
+                "B) Netcraft",
+                "C) Fragroute",
+                "D) Wireshark"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "3. Which of the following is used to perform customized network scans?",
+            "answers": [
+                "A) Nessus",
+                "B) Wireshark",
+                "C) AirPcap",
+                "D) nmap"
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "4. Which of the following is not a flag on a packet?",
+            "answers": [
+                "A) URG",
+                "B) PSH",
+                "C) RST",
+                "D) END"
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "5. An SYN attack uses which protocol?",
+            "answers": [
+                "A) TCP",
+                "B) UDP",
+                "C) HTTP",
+                "D) Telnet"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "6. Which of the following types of attack has no flags set?",
+            "answers": [
+                "A) SYN",
+                "B) NULL",
+                "C) Xmas tree",
+                "D) FIN"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "7. What is missing from a half-open scan?",
+            "answers": [
+                "A) SYN",
+                "B) ACK",
+                "C) SYN-ACK",
+                "D) FIN"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "8. During an FIN scan, what indicates that a port is closed?",
+            "answers": [
+                "A) No return response",
+                "B) RST",
+                "C) ACK",
+                "D) SYN"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "9. During a Xmas tree scan what indicates a port is closed?",
+            "answers": [
+                "A) No return response",
+                "B) RST",
+                "C) ACK",
+                "D) SYN"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "10. What is the three-way handshake?",
+            "answers": [
+                "A) The opening sequence of a TCP connection",
+                "B) A type of half-open scan",
+                "C) A Xmas tree scan",
+                "D) Part of a UDP scan"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "11. A full-open scan means that the three-way handshake has been completed. What is the difference between this and a half-open scan?",
+            "answers": [
+                "A) A half-open uses TCP.",
+                "B) A half-open uses UDP.",
+                "C) A half-open does not include the final ACK.",
+                "D) A half-open includes the final ACK."
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "12. What is the sequence of the three-way handshake?",
+            "answers": [
+                "A) SYN, SYN-ACK, ACK",
+                "B) SYN, SYN-ACK",
+                "C) SYN, ACK, SYN-ACK",
+                "D) SYN, ACK, ACK"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "13. What is an ICMP echo scan?",
+            "answers": [
+                "A) A ping sweep",
+                "B) A SYN scan",
+                "C) A Xmas tree scan",
+                "D) Part of a UDP scan"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "14. Which best describes a vulnerability scan?",
+            "answers": [
+                "A) A way to find open ports",
+                "B) A way to diagram a network",
+                "C) A proxy attack",
+                "D) A way to automate the discovery of vulnerabilities"
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "15. What is the purpose of a proxy?",
+            "answers": [
+                "A) To assist in scanning",
+                "B) To perform a scan",
+                "C) To keep a scan hidden",
+                "D) To automate the discovery of vulnerabilities"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "16. What is Tor used for?",
+            "answers": [
+                "A) To hide web browsing",
+                "B) To hide the process of scanning",
+                "C) To automate scanning",
+                "D) To hide the banner on a system"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "17. Why would you need to use a proxy to perform scanning?",
+            "answers": [
+                "A) To enhance anonymity",
+                "B) To fool firewalls",
+                "C) Perform half-open scans",
+                "D) To perform full-open scans"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "18. A vulnerability scan is a good way to do what?",
+            "answers": [
+                "A) Find open ports",
+                "B) Find weaknesses",
+                "C) Find operating systems",
+                "D) Identify hardware"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "19. A banner can do what?",
+            "answers": [
+                "A) Identify an OS",
+                "B) Help during scanning",
+                "C) Identify weaknesses",
+                "D) Identify a service"
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "20. Nmap is required to perform what type of scan?",
+            "answers": [
+                "A) Port scan",
+                "B) Vulnerability scan",
+                "C) Service scan",
+                "D) Threat scan"
+            ],
+            "correct": "A"
+        }
+    ]
+}

@@ -1,0 +1,206 @@
+{
+    "chapter": "Physical Security - Chapter 19",
+    "question_count": 20,
+    "questions": [
+        {
+            "question": "1. Physical security can prevent which of the following?",
+            "answers": [
+                "A) DDoS",
+                "B) FTP",
+                "C) Tailgating",
+                "D) Cracking"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "2. Which of the following is a detective control when not used in real time?",
+            "answers": [
+                "A) Fences",
+                "B) Alarms",
+                "C) CCTV",
+                "D) Locks"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "3. For a fence to deter a determined intruder, it should be at least how many feet tall?",
+            "answers": [
+                "A) 4",
+                "B) 6",
+                "C) 8",
+                "D) 10"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "4. A ____________ is used to prevent cars from ramming a building.",
+            "answers": [
+                "A) Honeypot",
+                "B) Gates",
+                "C) Bollard",
+                "D) Fences"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "5. While guards and dogs are both good for physical security, which of the following is a concern with dogs?",
+            "answers": [
+                "A) Liability",
+                "B) Discernment",
+                "C) Dual role",
+                "D) Multifunction"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "6. Which of the following is a good defense against tailgating and piggybacking?",
+            "answers": [
+                "A) Cameras",
+                "B) Guards",
+                "C) Turnstiles",
+                "D) Mantraps"
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "7. Which of the following is a wall that is less than full height?",
+            "answers": [
+                "A) Drop wall",
+                "B) False wall",
+                "C) Short wall",
+                "D) Plenum wall"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "8. In the field of IT security, the concept of defense in depth is the layering of more than one control on another. Why is this?",
+            "answers": [
+                "A) To provide better protection",
+                "B) To build dependency among layers",
+                "C) To increase logging ability",
+                "D) To satisfy auditors"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "9. Which intrusion prevention system can be used in conjunction with fences?",
+            "answers": [
+                "A) Infrared wave patter",
+                "B) Bollards",
+                "C) Audio",
+                "D) PIDAS"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "10. Frequency of type 2 errors is also known as what?",
+            "answers": [
+                "A) False rejection rate",
+                "B) Failure rate",
+                "C) Crossover error rate",
+                "D) False acceptance rate"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "11. Which type of biometric system is frequently found on laptops but can be used on entryways as well?",
+            "answers": [
+                "A) Retina",
+                "B) Fingerprint",
+                "C) Iris",
+                "D) Voice recognition"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "12. Which of the following could be considered required components of an alarm system?",
+            "answers": [
+                "A) A visual alerting method",
+                "B) An audio alerting method",
+                "C) Automatic dialup",
+                "D) Both A and B"
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "13. Lock-pick sets typically contain which of the following at a minimum?",
+            "answers": [
+                "A) Tension wrenches and screwdrivers",
+                "B) A pick",
+                "C) A pick and a driver",
+                "D) A pick and a tension wrench"
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "14. During an assessment you discovered that the target company was using a fax machine. Which of the following is the least important?",
+            "answers": [
+                "A) The phone number is publicly available.",
+                "B) The fax machine is in an open, unsecured area.",
+                "C) Faxes frequently sit in the printer tray.",
+                "D) The fax machine uses a ribbon."
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "15. What is a drop ceiling?",
+            "answers": [
+                "A) A false ceiling",
+                "B) A tiled ceiling",
+                "C) An insulated ceiling",
+                "D) A weak ceiling"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "16. What is another word for portals?",
+            "answers": [
+                "A) Doors",
+                "B) Mantraps",
+                "C) GlaDOS",
+                "D) Booths"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "17. What is a type of combination lock?",
+            "answers": [
+                "A) Key lock",
+                "B) Card lock",
+                "C) Cipher lock",
+                "D) Trucker lock"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "18. What is the first defense that a physical intruder typically encounters?",
+            "answers": [
+                "A) Fences",
+                "B) Walls",
+                "C) Bollards",
+                "D) Cameras"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "19. What mechanism is intended to deter theft of hard drives?",
+            "answers": [
+                "A) Locks",
+                "B) Backups",
+                "C) Encryption",
+                "D) Size"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "20. Which of the following is a characteristic of USB flash drives that makes security a problem?",
+            "answers": [
+                "A) Encrypted",
+                "B) Easily hidden",
+                "C) Portable",
+                "D) Slow"
+            ],
+            "correct": "B"
+        }
+    ]
+}

@@ -1,0 +1,206 @@
+{
+    "chapter": "SQL Injection - Chapter 14",
+    "question_count": 20,
+    "questions": [
+        {
+            "question": "1. Input validation is used to prevent which of the following?",
+            "answers": [
+                "A) Bad input",
+                "B) Formatting issues",
+                "C) Language issues",
+                "D) SQL injection"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "2. Web applications are used to __________.",
+            "answers": [
+                "A) Provide dynamic content",
+                "B) Stream video",
+                "C) Apply scripting",
+                "D) Implement security controls"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "3. Which of the following challenges can be solved by firewalls?",
+            "answers": [
+                "A) Protection against buffer overflows",
+                "B) Protection against scanning",
+                "C) Enforcement of privileges",
+                "D) Ability to use nonstandard ports"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "4. Databases can be a victim of code exploits depending on which of the following?",
+            "answers": [
+                "A) Configuration",
+                "B) Vendor",
+                "C) Patches",
+                "D) Client version"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "5. In addition to relational databases, there is also what kind of database?",
+            "answers": [
+                "A) Hierarchical",
+                "B) SQL",
+                "C) ODBC",
+                "D) Structured"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "6. Which of the following is a scripting language?",
+            "answers": [
+                "A) ActiveX",
+                "B) Java",
+                "C) CGI",
+                "D) ASP.NET"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "7. __________ is used to audit databases.",
+            "answers": [
+                "A) Ping",
+                "B) Ipconfig",
+                "C) SQLPing",
+                "D) Traceroute"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "8. Browsers do not display __________.",
+            "answers": [
+                "A) ActiveX",
+                "B) Hidden fields",
+                "C) Java",
+                "D) JavaScript"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "9. Proper input validation can prevent what from occurring?",
+            "answers": [
+                "A) Client-side issues",
+                "B) Operating system exploits",
+                "C) SQL injection attacks",
+                "D) Software failure"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "10. __________ can be used to attack databases.",
+            "answers": [
+                "A) Buffer overflows",
+                "B) SQL injection",
+                "C) Buffer injection",
+                "D) Input validation"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "11. Which command can be used to access the command prompt in SQL Server?",
+            "answers": [
+                "A) WHERE",
+                "B) SELECT",
+                "C) xp_cmdshell",
+                "D) cmdshell"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "12. Which command is used to query data in SQL Server?",
+            "answers": [
+                "A) cmdshell",
+                "B) WHERE",
+                "C) SELECT",
+                "D) from"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "13. Which statement is used to limit data in SQL Server?",
+            "answers": [
+                "A) cmdshell",
+                "B) WHERE",
+                "C) SELECT",
+                "D) to"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "14. Which command is used to remove a table from a database?",
+            "answers": [
+                "A) cmdshell \u2013drop table",
+                "B) REMOVE",
+                "C) DROPTABLES",
+                "D) drop table"
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "15. SQL injection attacks are aimed at which of the following?",
+            "answers": [
+                "A) Web applications",
+                "B) Web servers",
+                "C) Databases",
+                "D) Database engines"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "16. Which of the following is another name for a record in a database?",
+            "answers": [
+                "A) Row",
+                "B) Column",
+                "C) Cell",
+                "D) Label"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "17. What type of database has its information spread across many disparate systems?",
+            "answers": [
+                "A) Hierarchical",
+                "B) Relational",
+                "C) Distributed",
+                "D) Flat"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "18. What type of database uses multiple tables linked together in complex relationships?",
+            "answers": [
+                "A) Hierarchical",
+                "B) Relational",
+                "C) Distributed",
+                "D) Flat"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "19. What can an error message tell an attacker?",
+            "answers": [
+                "A) Success of an attack",
+                "B) Failure of an attack",
+                "C) Structure of a database",
+                "D) All of the above"
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "20. A blind SQL injection attack is used when which of the following is true?",
+            "answers": [
+                "A) Error messages are not available.",
+                "B) The database is not SQL compatible.",
+                "C) The database is relational.",
+                "D) All of the above."
+            ],
+            "correct": "A"
+        }
+    ]
+}

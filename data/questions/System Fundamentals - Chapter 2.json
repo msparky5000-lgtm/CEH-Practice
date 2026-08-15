@@ -1,0 +1,206 @@
+{
+    "chapter": "System Fundamentals - Chapter 2",
+    "question_count": 20,
+    "questions": [
+        {
+            "question": "1. At which layer of the OSI model does a proxy operate?",
+            "answers": [
+                "A) Physical",
+                "B) Network",
+                "C) Data Link",
+                "D) Application"
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "2. If a device is using node MAC addresses to funnel traffic, what layer of the OSI model is this device working in?",
+            "answers": [
+                "A) Layer 1",
+                "B) Layer 2",
+                "C) Layer 3",
+                "D) Layer 4"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "3. Which OS holds 90 percent of the desktop market and is one of our largest attack surfaces?",
+            "answers": [
+                "A) Windows",
+                "B) Linux",
+                "C) Mac OS",
+                "D) iOS"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "4. Which port uses SSL to secure web traffic?",
+            "answers": [
+                "A) 443",
+                "B) 25",
+                "C) 23",
+                "D) 80"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "5. What kind of domain resides on a single switchport?",
+            "answers": [
+                "A) Windows domain",
+                "B) Broadcast domain",
+                "C) Secure domain",
+                "D) Collision domain"
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "6. Which network topology uses a token-based access methodology?",
+            "answers": [
+                "A) Ethernet",
+                "B) Star",
+                "C) Bus",
+                "D) Ring"
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "7. Hubs operate at what layer of the OSI model?",
+            "answers": [
+                "A) Layer 1",
+                "B) Layer 2",
+                "C) Layer 3",
+                "D) Layer 4"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "8. What is the proper sequence of the TCP three-way-handshake?",
+            "answers": [
+                "A) SYN-ACK, ACK, ACK",
+                "B) SYN, SYN-ACK, ACK",
+                "C) SYN-SYN, SYN-ACK, SYN",
+                "D) ACK, SYN-ACK, SYN"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "9. Which of these protocols is a connection-oriented protocol?",
+            "answers": [
+                "A) FTP",
+                "B) UDP",
+                "C) POP3",
+                "D) TCP"
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "10. A scan of a network client shows that port 23 is open; what protocol is this aligned with?",
+            "answers": [
+                "A) Telnet",
+                "B) NetBIOS",
+                "C) DNS",
+                "D) SMTP"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "11. What port range is an obscure third-party application most likely to use?",
+            "answers": [
+                "A) 1 to 1024",
+                "B) 1025 to 32767",
+                "C) 32768 to 49151",
+                "D) 49152 to 65535"
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "12. Which category of firewall filters is based on packet header data only?",
+            "answers": [
+                "A) Stateful",
+                "B) Application",
+                "C) Packet",
+                "D) Proxy"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "13. An administrator has just been notified of irregular network activity; what appliance functions in this manner?",
+            "answers": [
+                "A) IPS",
+                "B) Stateful packet filtering",
+                "C) IDS",
+                "D) Firewall"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "14. Which topology has built-in redundancy because of its many client connections?",
+            "answers": [
+                "A) Token ring",
+                "B) Bus",
+                "C) Hybrid",
+                "D) Mesh"
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "15. When scanning a network via a hardline connection to a wired-switch NIC in promiscuous mode, what would be the extent of network traffic you would expect to see?",
+            "answers": [
+                "A) Entire network",
+                "B) VLAN you are attached to",
+                "C) All nodes attached to the same port",
+                "D) None"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "16. What device acts as an intermediary between an internal client and a web resource?",
+            "answers": [
+                "A) Router",
+                "B) PBX",
+                "C) VTC",
+                "D) Proxy"
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "17. Which technology allows the use of a single public address to support many internal clients while also preventing exposure of internal IP addresses to the outside world?",
+            "answers": [
+                "A) VPN",
+                "B) Tunneling",
+                "C) NTP",
+                "D) NAT"
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "18. What network appliance senses irregularities and plays an active role in stopping that irregular activity from continuing?",
+            "answers": [
+                "A) System administrator",
+                "B) Firewall",
+                "C) IPS",
+                "D) IDP"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "19. You have selected the option in your IDS to notify you via email if it senses any network irregularities. Checking the logs, you notice a few incidents but you didn\u2019t receive any alerts. What protocol needs to be configured on the IDS?",
+            "answers": [
+                "A) NTP",
+                "B) SNMP",
+                "C) POP3",
+                "D) SMTP"
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "20. Choosing a protective network appliance, you want a device that will inspect packets at the most granular level possible while providing improved traffic efficiency. What appliance would satisfy these requirements?",
+            "answers": [
+                "A) Layer 3 switch",
+                "B) NAT-enabled router",
+                "C) Proxy firewall",
+                "D) Application firewall"
+            ],
+            "correct": "D"
+        }
+    ]
+}

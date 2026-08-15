@@ -1,0 +1,206 @@
+{
+    "chapter": "Sniffers - Chapter 9",
+    "question_count": 20,
+    "questions": [
+        {
+            "question": "1. On a switch, each switchport represents a ____________.",
+            "answers": [
+                "A) VLAN",
+                "B) Broadcast domain",
+                "C) Host",
+                "D) Collision domain"
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "2. Wireless access points function as a ____________.",
+            "answers": [
+                "A) Hub",
+                "B) Bridge",
+                "C) Router",
+                "D) Repeater"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "3. What mode must be configured to allow an NIC to capture all traffic on the wire?",
+            "answers": [
+                "A) Extended mode",
+                "B) 10/100",
+                "C) Monitor mode",
+                "D) Promiscuous mode"
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "4. Which of the following prevents ARP poisoning?",
+            "answers": [
+                "A) ARP Ghost",
+                "B) IP DHCP Snooping",
+                "C) IP Snoop",
+                "D) DNSverf"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "5. Jennifer is a system administrator who is researching a technology that will secure network traffic from potential sniffing by unauthorized machines. Jennifer is not concerned with the future impact on legitimate troubleshooting. What technology can Jennifer implement?",
+            "answers": [
+                "A) SNMP",
+                "B) LDAP",
+                "C) SSH",
+                "D) FTP"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "6. MAC spoofing applies a legitimate MAC address to an unauthenticated host, which allows the attacker to pose as a valid user. Based on your understanding of ARP, what would indicate a bogus client?",
+            "answers": [
+                "A) The MAC address doesn\u2019t map to a manufacturer.",
+                "B) The MAC address is two digits too long.",
+                "C) A reverse ARP request maps to two hosts.",
+                "D) The host is receiving its own traffic."
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "7. Bob is attempting to sniff a wired network in his first pen test contract. He sees only traffic from the segment he is connected to. What can Bob do to gather all switch traffic?",
+            "answers": [
+                "A) MAC flooding",
+                "B) MAC spoofing",
+                "C) IP spoofing",
+                "D) DOS attack"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "8. What technique funnels all traffic back to a single client, allowing sniffing from all connected hosts?",
+            "answers": [
+                "A) ARP redirection",
+                "B) ARP poisoning",
+                "C) ARP flooding",
+                "D) ARP partitioning"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "9. Which Wireshark filter displays only traffic from 192.168.1.1?",
+            "answers": [
+                "A) ip.addr =! 192.168.1.1",
+                "B) ip.addr ne 192.168.1.1",
+                "C) ip.addr == 192.168.1.1",
+                "D) ip.addr \u2013 192.168.1.1"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "10. What common tool can be used for launching an ARP poisoning attack?",
+            "answers": [
+                "A) Cain & Abel",
+                "B) Nmap",
+                "C) Scooter",
+                "D) Tcpdump"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "11. Which command launches a CLI version of Wireshark?",
+            "answers": [
+                "A) Wireshk",
+                "B) dumpcap",
+                "C) tshark",
+                "D) editcap"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "12. Jennifer is using tcpdump to capture traffic on her network. She would like to save the capture for later review. What command can Jennifer use?",
+            "answers": [
+                "A) tcpdump \u2013r capture.log",
+                "B) tcpdump \u2013l capture.log",
+                "C) tcpdump \u2013t capture.log",
+                "D) tcpdump \u2013w capture.log"
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "13. What is the generic syntax of a Wireshark filter?",
+            "answers": [
+                "A) protocol.field operator value",
+                "B) field.protocol operator value",
+                "C) operator.protocol value field",
+                "D) protocol.operator value field"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "14. Tiffany is analyzing a capture from a client\u2019s network. She is particularly interested in NetBIOS traffic. What port does Tiffany filter for?",
+            "answers": [
+                "A) 123",
+                "B) 139",
+                "C) 161",
+                "D) 110"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "15. Based on the packet capture shown in the graphic, what is contained in the highlighted section of the packet?",
+            "answers": [
+                "A) The frame value of the packet",
+                "B) The MAC address of the sending host",
+                "C) Source and destination IP addresses",
+                "D) The routed protocol value"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "16. Jennifer is using tcpdump to capture traffic on her network. She would like to review a capture log gathered previously. What command can Jennifer use?",
+            "answers": [
+                "A) tcpdump \u2013r capture.log",
+                "B) tcpdump \u2013 l capture.log",
+                "C) tcpdump \u2013t capture.log",
+                "D) tcpdump \u2013w capture.log"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "17. Wireshark requires a network card to be able to enter which mode to sniff all network traffic?",
+            "answers": [
+                "A) Capture mode",
+                "B) Promiscuous mode",
+                "C) Pcap mode",
+                "D) Gather mode"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "18. Which network device can block sniffing to a single network collision domain, create VLANs, and make use of SPAN ports and port mirroring?",
+            "answers": [
+                "A) Hub",
+                "B) Switch",
+                "C) Router",
+                "D) Bridge"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "19. What device will neither limit the flow of traffic nor have an impact on the effectiveness of sniffing?",
+            "answers": [
+                "A) Hub",
+                "B) Router",
+                "C) Switch",
+                "D) Gateway"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "20. The command-line equivalent of WinDump is known as what?",
+            "answers": [
+                "A) Wireshark",
+                "B) Tcpdump",
+                "C) WinDump",
+                "D) Netstat"
+            ],
+            "correct": "B"
+        }
+    ]
+}

@@ -1,0 +1,206 @@
+{
+    "chapter": "Enumeration - Chapter 6",
+    "question_count": 20,
+    "questions": [
+        {
+            "question": "1. Enumeration is useful to system hacking because it provides which of the following?",
+            "answers": [
+                "A) Passwords",
+                "B) IP ranges",
+                "C) Configurations",
+                "D) Usernames"
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "2. Enumeration does not uncover which of the following pieces of information?",
+            "answers": [
+                "A) Services",
+                "B) User accounts",
+                "C) Ports",
+                "D) Shares"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "3. __________ involves grabbing a copy of a zone file.",
+            "answers": [
+                "A) Zone transfer",
+                "B) nslookup transfers",
+                "C) DNS transfer",
+                "D) Zone update"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "4. Which of the following would confirm a user named chell in SMTP?",
+            "answers": [
+                "A) vrfy chell",
+                "B) vrfy \u2013u chell",
+                "C) expn chell",
+                "D) expn \u2013u chell"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "5. VRFY is used to do which of the following?",
+            "answers": [
+                "A) Validate an email address",
+                "B) Expand a mailing list",
+                "C) Validate an email server",
+                "D) Test a connection"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "6. __________ is a method for expanding an email list.",
+            "answers": [
+                "A) VRFY",
+                "B) EXPN",
+                "C) RCPT TO",
+                "D) SMTP"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "7. An attacker can use __________ to enumerate users on a system.",
+            "answers": [
+                "A) NetBIOS",
+                "B) TCP/IP",
+                "C) NetBEUI",
+                "D) NNTP"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "8. A __________ is used to connect to a remote system using NetBIOS.",
+            "answers": [
+                "A) NULL session",
+                "B) Hash",
+                "C) Rainbow table",
+                "D) Rootkit"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "9. __________ is used to synchronize clocks on a network.",
+            "answers": [
+                "A) SAM",
+                "B) NTP",
+                "C) NetBIOS",
+                "D) FTP"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "10. Port number __________ is used for SMTP.",
+            "answers": [
+                "A) 25",
+                "B) 110",
+                "C) 389",
+                "D) 52"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "11. Port number __________ is used by DNS for zone transfers.",
+            "answers": [
+                "A) 53 TCP",
+                "B) 53 UDP",
+                "C) 25 TCP",
+                "D) 25 UDP"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "12. Which command can be used to view NetBIOS information?",
+            "answers": [
+                "A) netstat",
+                "B) nmap",
+                "C) nbtstat",
+                "D) telnet"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "13. SNScan is used to access information for which protocol?",
+            "answers": [
+                "A) SMTP",
+                "B) FTP",
+                "C) SNMP",
+                "D) HTTP"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "14. SMTP is used to perform which function?",
+            "answers": [
+                "A) Monitor network equipment",
+                "B) Transmit status information",
+                "C) Send email messages",
+                "D) Transfer files"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "15. Which ports does SNMP use to function?",
+            "answers": [
+                "A) 160 and 161",
+                "B) 160 and 162",
+                "C) 389 and 160",
+                "D) 161 and 162"
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "16. LDAP is used to perform which function?",
+            "answers": [
+                "A) Query a network",
+                "B) Query a database",
+                "C) Query a directory",
+                "D) Query a file system"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "17. SNMP is used to do which of the following?",
+            "answers": [
+                "A) Transfer files",
+                "B) Synchronize clocks",
+                "C) Monitor network devices",
+                "D) Retrieve mail from a server"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "18. SNMP is used to perform which function in relation to hardware?",
+            "answers": [
+                "A) Trap messages",
+                "B) Monitor and manage traffic",
+                "C) Manage users and groups",
+                "D) Monitor security and violations"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "19. What is an SID used to do?",
+            "answers": [
+                "A) Identify permissions",
+                "B) Identify a domain controller",
+                "C) Identify a user",
+                "D) Identify a mail account"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "20. A DNS zone transfer is used to do which of the following?",
+            "answers": [
+                "A) Copy files",
+                "B) Perform searches",
+                "C) Synchronize server information",
+                "D) Decommission servers"
+            ],
+            "correct": "C"
+        }
+    ]
+}

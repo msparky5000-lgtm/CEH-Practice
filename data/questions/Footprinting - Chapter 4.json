@@ -1,0 +1,206 @@
+{
+    "chapter": "Footprinting - Chapter 4",
+    "question_count": 20,
+    "questions": [
+        {
+            "question": "1. Which of the following best describes footprinting?",
+            "answers": [
+                "A) Enumeration of services",
+                "B) Discovery of services",
+                "C) Discussion with people",
+                "D) Investigation of a target"
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "2. Which of the following is not typically used during footprinting?",
+            "answers": [
+                "A) Search engines",
+                "B) Email",
+                "C) Port scanning",
+                "D) Google hacking"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "3. Why use Google hacking?",
+            "answers": [
+                "A) To fine-tune search results",
+                "B) To speed up searches",
+                "C) To target a domain",
+                "D) To look for information about Google"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "4. What is the role of social engineering?",
+            "answers": [
+                "A) To gain information about computers",
+                "B) To gain information about social media",
+                "C) To gain information from human beings",
+                "D) To gain information about posts and cameras"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "5. What is EDGAR used to do?",
+            "answers": [
+                "A) Validate personnel",
+                "B) Check financial filings",
+                "C) Verify a website",
+                "D) Gain technical details"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "6. Which of the following can be used to tweak or fine-tune search results?",
+            "answers": [
+                "A) Archiving",
+                "B) Operators",
+                "C) Hacking",
+                "D) Refining"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "7. Which of the following can an attacker use to determine the technology and structure within an organization?",
+            "answers": [
+                "A) Job boards",
+                "B) Archives",
+                "C) Google hacking",
+                "D) Social engineering"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "8. Which of the following can be used to assess physical security?",
+            "answers": [
+                "A) Web cams",
+                "B) Satellite photos",
+                "C) Street views",
+                "D) Interviews"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "9. Which of the following can help you determine business processes of your target through human interaction?",
+            "answers": [
+                "A) Social engineering",
+                "B) Email",
+                "C) Website",
+                "D) Job boards"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "10. The Wayback Machine is used to do which of the following?",
+            "answers": [
+                "A) Get job postings",
+                "B) View websites",
+                "C) View archived versions of websites",
+                "D) Backup copies of websites"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "11. Which record will reveal information about a mail server for a domain?",
+            "answers": [
+                "A) A",
+                "B) Q",
+                "C) MS",
+                "D) MX"
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "12. Which tool can be used to view web server information?",
+            "answers": [
+                "A) Netstat",
+                "B) Netcraft",
+                "C) Warcraft",
+                "D) Packetcraft"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "13. What can be configured in most search engines to monitor and alert you of changes to content?",
+            "answers": [
+                "A) Notifications",
+                "B) Schedules",
+                "C) Alerts",
+                "D) HTTP"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "14. What phase comes after footprinting?",
+            "answers": [
+                "A) System hacking",
+                "B) Enumeration",
+                "C) Scanning",
+                "D) Transfer files"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "15. If you can\u2019t gain enough information directly from a target, what is another option?",
+            "answers": [
+                "A) EDGAR",
+                "B) Social engineering",
+                "C) Scanning",
+                "D) Competitive analysis"
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "16. What is the purpose of social engineering?",
+            "answers": [
+                "A) Gain information from a computer through networking and other tools",
+                "B) Gain information from the web looking for employee names",
+                "C) Gain information from a job site using a careful eye",
+                "D) Gain information from a human being through face-to-face or electronic means"
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "17. Which of the following would be a very effective source of information as it relates to social engineering?",
+            "answers": [
+                "A) Social networking",
+                "B) Port scanning",
+                "C) Websites",
+                "D) Job boards"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "18. Footprinting can determine all of the following except __________?",
+            "answers": [
+                "A) Hardware types",
+                "B) Software types",
+                "C) Business processes",
+                "D) Distribution and number of personnel"
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "19. Footprinting has two phases. What are they?",
+            "answers": [
+                "A) Active and pseudonymous",
+                "B) Active and passive",
+                "C) Social and anonymous",
+                "D) Scanning and enumerating"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "20. Which tool can trace the path of a packet?",
+            "answers": [
+                "A) Ping",
+                "B) Tracert",
+                "C) Whois",
+                "D) DNS"
+            ],
+            "correct": "B"
+        }
+    ]
+}

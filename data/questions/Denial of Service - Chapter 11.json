@@ -1,0 +1,206 @@
+{
+    "chapter": "Denial of Service - Chapter 11",
+    "question_count": 20,
+    "questions": [
+        {
+            "question": "1. What is the hexadecimal value of a NOP instruction in an Intel system?",
+            "answers": [
+                "A) 0x99",
+                "B) 0x90",
+                "C) 0x80",
+                "D) 99x0"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "2. Which pointer in a program stack gets shifted or overwritten during a successful overflow attack?",
+            "answers": [
+                "A) ESP",
+                "B) ECP",
+                "C) EIP",
+                "D) EBP"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "3. Groups and individuals who hack systems based on principle or personal beliefs are known as ___________.",
+            "answers": [
+                "A) White hats",
+                "B) Black hats",
+                "C) Script kiddies",
+                "D) Hacktivists"
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "4. Jason is the local network administrator who has been tasked with securing the network from possible DoS attacks. Within the last few weeks, some traffic logs appear to have internal clients making requests from outside the internal LAN. Based on the traffic Jason has been seeing, what action should he take?",
+            "answers": [
+                "A) Throttle network traffic.",
+                "B) Update antivirus definitions.",
+                "C) Implement egress filtering.",
+                "D) Implement ingress filtering."
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "5. Which DoS attack sends traffic to the target with a spoofed IP of the target itself?",
+            "answers": [
+                "A) Land",
+                "B) Smurf",
+                "C) Teardrop",
+                "D) SYN flood"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "6. Adding to and removing from a program stack are known as what?",
+            "answers": [
+                "A) Pop and lock",
+                "B) Push and pop",
+                "C) Stack and pull",
+                "D) Plus and minus"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "7. Zombies Inc. is looking for ways to better protect their web servers from potential DoS attacks. Their web admin proposes the use of a network appliance that receives all incoming web requests and forwards them to the web server. He says it will prevent direct customer contact with the server and reduce the risk of DoS attacks. What appliance is he proposing?",
+            "answers": [
+                "A) Web proxy",
+                "B) IDS",
+                "C) Reverse proxy",
+                "D) Firewall"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "8. In a DDoS attack, what communications channel is commonly used to orchestrate the attack?",
+            "answers": [
+                "A) Internet Relay Chat (IRC)",
+                "B) MSN Messenger",
+                "C) ICMP",
+                "D) Google Talk"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "9. What is the name for the dynamic memory space that, unlike the stack, doesn\u2019t rely on sequential ordering or organization?",
+            "answers": [
+                "A) Pointer",
+                "B) Heap",
+                "C) Pile",
+                "D) Load"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "10. Which function(s) are considered dangerous because they don\u2019t check memory bounds? (Choose all that apply.)",
+            "answers": [
+                "A) gets()",
+                "B) strcpy()",
+                "C) scanf()",
+                "D) strcat()"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "11. The stack operates on _______ a basis.",
+            "answers": [
+                "A) FIFO",
+                "B) LIFO",
+                "C) FILO",
+                "D) LILO"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "12. While monitoring traffic on the network, Jason captures the following traffic. What is he seeing occur?",
+            "answers": [
+                "A) ICMP flood",
+                "B) SYN flood",
+                "C) Teardrop",
+                "D) Land"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "13. What is a single-button DDoS tool suspected to be used by groups such as Anonymous?",
+            "answers": [
+                "A) Trinoo",
+                "B) Crazy Pinger",
+                "C) LOIC",
+                "D) DoSHTTP"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "14. What is an eight-in-one DoS tool that can launch such attacks as land and teardrop?",
+            "answers": [
+                "A) Jolt",
+                "B) Targa",
+                "C) TFN2K",
+                "D) Trinoo"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "15. What command-line utility can you use to craft custom packets with specific flags set?",
+            "answers": [
+                "A) Nmap",
+                "B) Zenmap",
+                "C) Ping",
+                "D) hping3"
+            ],
+            "correct": "D"
+        },
+        {
+            "question": "16. What protocol is used to carry out a fraggle attack?",
+            "answers": [
+                "A) IPX",
+                "B) TCP",
+                "C) UDP",
+                "D) ICMP"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "17. What is the key difference between a smurf and a fraggle attack?",
+            "answers": [
+                "A) TCP vs. UDP",
+                "B) TCP vs. ICP",
+                "C) UDP vs. ICMP",
+                "D) TCP vs. ICMP"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "18. What is the main difference between DoS and DDoS?",
+            "answers": [
+                "A) Scale of attack",
+                "B) Number of attackers",
+                "C) Goal of the attack",
+                "D) Protocols in use"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "19. What is the most common sign of a DoS attack?",
+            "answers": [
+                "A) Weird messages",
+                "B) Rebooting of a system",
+                "C) Slow performance",
+                "D) Stolen credentials"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "20. What response is missing in a SYN flood attack?",
+            "answers": [
+                "A) ACK",
+                "B) SYN",
+                "C) SYN-ACK",
+                "D) URG"
+            ],
+            "correct": "A"
+        }
+    ]
+}
