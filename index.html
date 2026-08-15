@@ -4,7 +4,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#111827">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="mobile-web-app-capable" content="yes">
 <title>CEH Practice App</title>
+<link rel="manifest" href="manifest.webmanifest">
 <link rel="stylesheet" href="web/style.css">
 </head>
 <body>
@@ -32,5 +36,6 @@
 <section id="review" class="panel"><h2>🔍 Review Incorrect Answers</h2><div id="reviewList" class="review-list"></div><button id="reviewBackBtn" class="primary">← Back to Results</button></section>
 </main>
 <script src="web/app.js"></script>
+<script>if ('serviceWorker' in navigator) navigator.serviceWorker.register('service-worker.js');</script>
 </body>
 </html>
