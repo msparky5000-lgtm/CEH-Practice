@@ -37,7 +37,7 @@ const show = (id) => document.querySelectorAll('.panel').forEach((p) => p.classL
 
 function shuffle(array) {
   const copy = [...array];
-  for (let i = copy.length - 1; i > 0; i--) {
+  for (let i = copy.length - 1; i > 0; i -= 1) {
     const j = Math.floor(Math.random() * (i + 1));
     [copy[i], copy[j]] = [copy[j], copy[i]];
   }
@@ -85,7 +85,6 @@ function setHomeStatus(text) {
 function buildChapterList() {
   const list = $('chapterList');
   list.innerHTML = '';
-
   chapters.forEach((chapter) => {
     const count = state.allQuestions.filter((q) => q.chapter === chapter).length;
     const button = document.createElement('button');
@@ -126,7 +125,6 @@ function startExam() {
     alert('The question bank does not contain enough questions to build the 125-question exam.');
     return;
   }
-
   const bonusIndexes = shuffle([...Array(chapters.length).keys()]).slice(0, 5);
   const exam = [];
   byChapter.forEach((list, index) => {
@@ -138,23 +136,29 @@ function startExam() {
 function renderQuestion() {
   const q = state.questions[state.index];
   const saved = state.answers[state.index] || '';
+  const result = state.results[state.index];
   $('progress').textContent = `Question ${state.index + 1} of ${state.questions.length}`;
   $('score').textContent = `Score: ${state.score}`;
   $('question').textContent = q.question;
   $('answers').innerHTML = '';
-  $('feedback').textContent = '';
+  $('feedback').textContent = result ? (result.is_correct ? 'Correct!' : `Incorrect. Correct answer: ${q.correct}`) : '';
 
   q.answers.forEach((answer) => {
     const button = document.createElement('button');
     button.className = 'answer';
     button.textContent = `${answer.letter}) ${answer.text}`;
     if (answer.letter === saved) button.classList.add('selected');
+    if (result) {
+      button.disabled = true;
+      if (answer.letter === q.correct) button.classList.add('correct');
+      else if (answer.letter === saved) button.classList.add('wrong');
+    }
     button.onclick = () => selectAnswer(answer.letter);
     $('answers').appendChild(button);
   });
 
   $('prevBtn').disabled = state.index === 0;
-  $('nextBtn').disabled = !state.results[state.index];
+  $('nextBtn').disabled = !result;
 }
 
 function selectAnswer(letter) {
@@ -187,15 +191,7 @@ function checkAnswer() {
     is_correct: correct
   };
 
-  document.querySelectorAll('.answer').forEach((button) => {
-    const letter = button.textContent.trim().charAt(0);
-    button.disabled = true;
-    if (letter === q.correct) button.classList.add('correct');
-    else if (letter === choice) button.classList.add('wrong');
-  });
-
-  $('feedback').textContent = correct ? 'Correct!' : `Incorrect. Correct answer: ${q.correct}`;
-  $('score').textContent = `Score: ${state.score}`;
+  renderQuestion();
   $('nextBtn').disabled = false;
 }
 
@@ -210,19 +206,9 @@ function previousQuestion() {
   if (state.index <= 0) return;
   state.index -= 1;
   renderQuestion();
-  const result = state.results[state.index];
-  if (result) {
-    document.querySelectorAll('.answer').forEach((button) => {
-      const letter = button.textContent.trim().charAt(0);
-      button.disabled = true;
-      if (letter === state.questions[state.index].correct) button.classList.add('correct');
-      else if (letter === state.answers[state.index]) button.classList.add('wrong');
-    });
-  }
 }
 
 function finishQuiz() {
-  // Unanswered questions count as incorrect, matching the Python analytics.
   state.questions.forEach((q, index) => {
     if (!state.results[index]) {
       const correctAnswer = q.answers.find((a) => a.letter === q.correct);
@@ -274,6 +260,8 @@ function finishQuiz() {
 }
 
 function reviewIncorrect() {
+  // Review is deliberately limited to the current in-memory quiz session.
+  // Starting a new quiz resets state.results, so previous sessions are not carried over.
   const list = $('reviewList');
   list.innerHTML = '';
   const wrong = state.results.filter((r) => !r.is_correct);
