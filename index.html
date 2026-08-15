@@ -1,28 +1,40 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="theme-color" content="#111827">
-<title>CEH Practice</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#111827">
+  <title>CEH Practice App</title>
+  <link rel="stylesheet" href="web/style.css">
 </head>
 <body>
 <main class="app">
-<header><h1>CEH Practice</h1><p>Mobile practice app</p></header>
+<header class="app-header"><h1>CEH Practice App</h1><p>Certified Ethical Hacker Study Suite</p></header>
 <section id="home" class="panel active">
-<button id="startBtn" class="primary">Start Practice</button>
-<button id="randomBtn">Random 20 Questions</button>
-<p class="note">Loading question bank...</p>
+<button id="chaptersBtn" class="primary">📚 Browse Chapters</button>
+<button id="examBtn">📝 Practice Exam (125 Questions)</button>
+<button id="randomBtn">🎲 Random Quiz (20 Questions)</button>
+<p id="homeStatus" class="note">Loading question bank...</p>
+</section>
+<section id="chapters" class="panel">
+<div class="panel-title-row"><h2>Browse Chapters</h2><button id="chaptersHomeBtn" class="small">🏠 Home</button></div>
+<div id="chapterList" class="chapter-list"></div><button id="chaptersRandomBtn" class="primary">🎲 Random Quiz</button>
 </section>
 <section id="quiz" class="panel">
+<div class="panel-title-row"><button id="quizHomeBtn" class="small">🏠 Home</button><span id="quizChapter"></span></div>
 <div class="topbar"><span id="progress"></span><span id="score"></span></div>
 <h2 id="question"></h2><div id="answers"></div>
-<div class="actions"><button id="checkBtn" class="primary">Check Answer</button><button id="nextBtn" disabled>Next</button></div>
+<div class="actions"><button id="prevBtn">◀ Previous</button><button id="checkBtn" class="primary">Check</button><button id="nextBtn" disabled>Next ▶</button><button id="finishBtn">Finish</button></div>
 <p id="feedback"></p>
 </section>
-<section id="results" class="panel"><h2>Results</h2><p id="resultText"></p><button id="againBtn" class="primary">Try Again</button></section>
+<section id="results" class="panel">
+<h2>🎉 Quiz Complete</h2><p id="resultChapter" class="muted"></p>
+<div class="results-card"><div id="resultScore" class="big-number"></div><div id="resultPercent" class="percent"></div><div class="progress-track"><div id="resultProgress" class="progress-fill"></div></div><p id="correctStat"></p><p id="incorrectStat"></p><div id="rating" class="rating"></div></div>
+<h3>Performance by Chapter</h3><div id="analytics" class="analytics"></div>
+<div class="result-actions"><button id="reviewBtn">🔍 Review Incorrect Answers</button><button id="retryBtn" class="primary">🔄 Retry</button><button id="resultHomeBtn">🏠 Home</button></div>
+</section>
+<section id="review" class="panel"><h2>🔍 Review Incorrect Answers</h2><div id="reviewList" class="review-list"></div><button id="reviewBackBtn" class="primary">← Back to Results</button></section>
 </main>
-<script src="app.js"></script>
+<script src="web/app.js"></script>
 </body>
 </html>
