@@ -1,0 +1,10 @@
+{
+  "name": "CEH Practice App",
+  "short_name": "CEH Practice",
+  "start_url": "/CEH-Practice/",
+  "display": "standalone",
+  "background_color": "#111827",
+  "theme_color": "#111827",
+  "description": "Certified Ethical Hacker Study Suite",
+  "icons": []
+}
